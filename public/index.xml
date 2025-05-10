@@ -33,6 +33,1670 @@
     </item>
     
     <item>
+      <title>Внешний курс «‎Основы кибербезопасности»</title>
+      <link>http://localhost:1313/project/external-course_stage_1/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/external-course_stage_1/</guid>
+      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
+&lt;p&gt;Пройти первый этап &amp;ldquo;Безопасность в сети&amp;rdquo; внешнего курса &amp;ldquo;Основы кибербезопасности&amp;rdquo;&lt;/p&gt;
+&lt;h1 id=&#34;задание&#34;&gt;Задание&lt;/h1&gt;
+&lt;p&gt;Изучить:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Как работает Интернет и базовые сетевые протоколы&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Как достигается персонализация пользователя в Сети&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Какие механизмы существуют для анонимизации пользователя в сети&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Как обеспечивается безопасность в беспроводных сетях&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;теоретическое-введение&#34;&gt;Теоретическое введение&lt;/h1&gt;
+&lt;p&gt;Модель TCP/IP состоит из 4 уровней. Прикладной уровень отвечает за взаимодействие пользовательских программ (например, браузеров через HTTP/HTTPS или почтовых клиентов через SMTP) с интернет-сервисами. Транспортный уровень (TCP и UDP) обеспечивает надежную или быструю передачу данных между процессами на разных устройствах. Сетевой уровень (IP) управляет маршрутизацией пакетов между различными физическими сетями, а канальный уровень (Ethernet, Wi-Fi) обеспечивает физическую передачу данных. Вся эта многоуровневая система позволяет преобразовать запрос пользователя (например, ввод адреса yandex.ru) в загрузку веб-страницы, проходя последовательно все этапы обработки данных.&lt;/p&gt;
+&lt;p&gt;Персонализация в сети достигается с помощью файлов cookie, которые передаются от сервера к браузеру пользователя для его идентификации. Куки позволяют сохранять пользовательские данные, такие как сессионная информация (например, содержимое корзины в интернет-магазине) или предпочтения (например, выбор языка страницы). Однако они также могут использоваться для отслеживания действий пользователя, что позволяет рекламным сервисам показывать персонализированную рекламу на разных сайтах. Куки бывают сессионными (удаляются после закрытия браузера) и постоянными (сохраняются для аутентификации и сбора статистики), а также различаются по источнику — прямые (от посещаемого сайта) и сторонние (от рекламных сервисов). Блокировка сторонних cookie повышает приватность, но полный отказ от них значительно снижает удобство работы в сети, так как требует постоянной повторной авторизации.&lt;/p&gt;
+&lt;p&gt;Tor — это сеть, обеспечивающая анонимность и конфиденциальность пользователей через луковую маршрутизацию, где данные последовательно шифруются и передаются через три узла: охранный, промежуточный и выходной. В отличие от классической маршрутизации, ни один узел (кроме охранного и выходного) не знает полного пути пакета, что исключает отслеживание отправителя и получателя. Конфиденциальность достигается за счёт многослойного шифрования: каждый узел расшифровывает только свой &amp;ldquo;слой&amp;rdquo;, подобно очистке лука, и передаёт данные дальше. Хотя Tor эффективно скрывает IP-адрес пользователя, замедляя соединение, он не гарантирует абсолютной анонимности из-за возможных атак и блокировок в некоторых странах. Браузер Tor, внешне похожий на обычные браузеры, маскирует местоположение пользователя, подменяя его IP-адресом выходного узла, что делает его популярным инструментом для приватного серфинга, несмотря на спорные аспекты использования.&lt;/p&gt;
+&lt;p&gt;Безопасность в беспроводных сетях (WiFi) обеспечивается через шифрование и аутентификацию, реализуемые стандартами WPA, WPA2 и WPA3, которые пришли на смену уязвимому WEP. Современные алгоритмы используют AES-шифрование с ключами длиной от 128 бит, генерируемыми на основе пароля пользователя, что защищает передаваемые данные от перехвата. Аутентификация может быть двух типов: Personal (домашние сети с паролем) и Enterprise (корпоративные сети с серверной проверкой доступа). Важным свойством WPA3 является устойчивость к атакам на слабые пароли и forward secrecy, предотвращающая компрометацию прошлых сессий при утечке ключа. WiFi работает на канальном уровне модели TCP/IP, обеспечивая беспроводную передачу данных по радиоканалу, аналогично проводному Ethernet, но с дополнительными механизмами защиты от помех и несанкционированного доступа.&lt;/p&gt;
+&lt;h1 id=&#34;выполнение-внешнего-курса&#34;&gt;Выполнение внешнего курса&lt;/h1&gt;
+&lt;h2 id=&#34;как-работает-интернет-базовые-сетевые-протоколы&#34;&gt;Как работает интернет: базовые сетевые протоколы&lt;/h2&gt;
+&lt;p&gt;HTTPS – единственный протокол из списка, относящийся к прикладному уровню.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/1_hu63588155694124828086419d4b6306b3_102730_3a09bc6ad0f33e61bc60f48c9f58ecb0.webp 400w,
+               /project/external-course_stage_1/image/1_hu63588155694124828086419d4b6306b3_102730_53b0279bbc58a33eec7c9e8bba35238d.webp 760w,
+               /project/external-course_stage_1/image/1_hu63588155694124828086419d4b6306b3_102730_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/1_hu63588155694124828086419d4b6306b3_102730_3a09bc6ad0f33e61bc60f48c9f58ecb0.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;378&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;TCP работает на транспортном уровне (4-й уровень OSI). Он обеспечивает надежную доставку данных, например, для HTTP или FTP.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/2_huf99661c0a3301fb5fa090879383e65ff_86072_7c60c2c3eee76bed7678996fa4030eb9.webp 400w,
+               /project/external-course_stage_1/image/2_huf99661c0a3301fb5fa090879383e65ff_86072_025e0bdc5e7873fd91fd0f5ed5444116.webp 760w,
+               /project/external-course_stage_1/image/2_huf99661c0a3301fb5fa090879383e65ff_86072_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/2_huf99661c0a3301fb5fa090879383e65ff_86072_7c60c2c3eee76bed7678996fa4030eb9.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;317&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Корректными являются ответы, в которых числа &amp;lt; 255.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/3_hu1a5559507b545be99472cea3c149dbf2_124238_c0a7cf171fb9057abf587aa5cd87c79d.webp 400w,
+               /project/external-course_stage_1/image/3_hu1a5559507b545be99472cea3c149dbf2_124238_f460d0274fed38bda29e39ebb2de5198.webp 760w,
+               /project/external-course_stage_1/image/3_hu1a5559507b545be99472cea3c149dbf2_124238_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/3_hu1a5559507b545be99472cea3c149dbf2_124238_c0a7cf171fb9057abf587aa5cd87c79d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;369&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;DNS сервер сопоставляет IP адреса доменным именам. Остальные функции не относятся к DNS (сегментация данных выполняется на транспортном уровне протоколом TCP, выбор маршрута пакета - задача сетевого уровня и маршрутизаторов, адресация на хосте осуществляется протоколами канального уровня типа ARP)&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/4_hu02cd030b7bf20cc5ba64c1aa1ea1c461_104264_cba51e0570a100700ac05b2b31379899.webp 400w,
+               /project/external-course_stage_1/image/4_hu02cd030b7bf20cc5ba64c1aa1ea1c461_104264_acf43b9abe2b4681bf00d7f4f5724b11.webp 760w,
+               /project/external-course_stage_1/image/4_hu02cd030b7bf20cc5ba64c1aa1ea1c461_104264_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/4_hu02cd030b7bf20cc5ba64c1aa1ea1c461_104264_cba51e0570a100700ac05b2b31379899.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;324&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Правильная последовательность: прикладной — транспортный — сетевой — канальный, другие варианты нарушают порядок уровней.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/5_hu03bf73f14ed470f6a2988d8ebe3ec766_119589_cfbcc8dedf05e38ebd2f83dd7435aa7c.webp 400w,
+               /project/external-course_stage_1/image/5_hu03bf73f14ed470f6a2988d8ebe3ec766_119589_e81a7729a459cdb99ae9d9648f82d65d.webp 760w,
+               /project/external-course_stage_1/image/5_hu03bf73f14ed470f6a2988d8ebe3ec766_119589_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/5_hu03bf73f14ed470f6a2988d8ebe3ec766_119589_cfbcc8dedf05e38ebd2f83dd7435aa7c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;311&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Протокол HTTP передает данные между клиентом и сервером в открытом виде, без шифрования.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/6_hu1419c486fc22bdd0dbba11aa10bb7cd7_121670_69f970ba8cf91c46d47d323f72f24b89.webp 400w,
+               /project/external-course_stage_1/image/6_hu1419c486fc22bdd0dbba11aa10bb7cd7_121670_9e9c2894802d15b2aa386fd6b1a209ab.webp 760w,
+               /project/external-course_stage_1/image/6_hu1419c486fc22bdd0dbba11aa10bb7cd7_121670_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/6_hu1419c486fc22bdd0dbba11aa10bb7cd7_121670_69f970ba8cf91c46d47d323f72f24b89.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;317&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Протокол HTTPS включает две основные фазы: рукопожатие (TLS handshake), где происходит аутентификация сервера и согласование параметров шифрования, и передачу данных, которая осуществляется в зашифрованном виде.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/7_hu5d837b400f0f264d9804af33f730ca74_119960_e5ea6d1d2e37f39f257e62d2944ad00d.webp 400w,
+               /project/external-course_stage_1/image/7_hu5d837b400f0f264d9804af33f730ca74_119960_cda1648ab932dcf6c4a3acaf61b2fce8.webp 760w,
+               /project/external-course_stage_1/image/7_hu5d837b400f0f264d9804af33f730ca74_119960_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/7_hu5d837b400f0f264d9804af33f730ca74_119960_e5ea6d1d2e37f39f257e62d2944ad00d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;301&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Версия протокола TLS определяется в процессе переговоров между клиентом и сервером: клиент предлагает поддерживаемые версии, а сервер выбирает наиболее безопасную из доступных обоим.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/8_hu6f762b4002758cd2026a9703b75c0432_113790_dd1c783371fa9dea2a886a848435a21d.webp 400w,
+               /project/external-course_stage_1/image/8_hu6f762b4002758cd2026a9703b75c0432_113790_e1b908658a9dc3109b9fbefaf31c34e0.webp 760w,
+               /project/external-course_stage_1/image/8_hu6f762b4002758cd2026a9703b75c0432_113790_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/8_hu6f762b4002758cd2026a9703b75c0432_113790_dd1c783371fa9dea2a886a848435a21d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;341&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;В фазе &amp;ldquo;рукопожатия&amp;rdquo; TLS предусмотрено формирование общего секретного ключа, аутентификация сервера (и опционально клиента), а также согласование алгоритмов шифрования. Шифрование данных начинается только после завершения рукопожатия, поэтому сам процесс проходит в открытом виде.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/9_hub9f7b72b11d7e4d85ab6768c00770a9e_147298_2818a75ca22f09d6d6f373a8be029fd2.webp 400w,
+               /project/external-course_stage_1/image/9_hub9f7b72b11d7e4d85ab6768c00770a9e_147298_5f3a01cb82b1f56cd20aad0e828f1495.webp 760w,
+               /project/external-course_stage_1/image/9_hub9f7b72b11d7e4d85ab6768c00770a9e_147298_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/9_hub9f7b72b11d7e4d85ab6768c00770a9e_147298_2818a75ca22f09d6d6f373a8be029fd2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;348&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;персонализация-сети&#34;&gt;Персонализация сети&lt;/h2&gt;
+&lt;p&gt;Куки хранят идентификатор сессии или уникальный идентификатор пользователя для аутентификации и отслеживания состояния сеанса. Но они не должны содержать пароли или IP-адреса, так как это нарушает безопасность и конфиденциальность.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/10_hud32556397a0d7a0ee0e9b5e1e5003975_139630_b431adc3e204efb28956d126111cc54e.webp 400w,
+               /project/external-course_stage_1/image/10_hud32556397a0d7a0ee0e9b5e1e5003975_139630_9af58b504190ec95b4bbfd4822448c6e.webp 760w,
+               /project/external-course_stage_1/image/10_hud32556397a0d7a0ee0e9b5e1e5003975_139630_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/10_hud32556397a0d7a0ee0e9b5e1e5003975_139630_b431adc3e204efb28956d126111cc54e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;411&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Куки не используются для улучшения надежности соединения, так как это техническая задача, решаемая на уровне протоколов.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/11_hu831d08cfcd36ad326195b99ebc7bb2fa_135041_7551f95a1be4d8fc39f67aa6c392a2ea.webp 400w,
+               /project/external-course_stage_1/image/11_hu831d08cfcd36ad326195b99ebc7bb2fa_135041_534eb330d7ccaade2dff54b25989fcca.webp 760w,
+               /project/external-course_stage_1/image/11_hu831d08cfcd36ad326195b99ebc7bb2fa_135041_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/11_hu831d08cfcd36ad326195b99ebc7bb2fa_135041_7551f95a1be4d8fc39f67aa6c392a2ea.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;411&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Клиент лишь хранит и передаёт куки, но не генерирует их самостоятельно, куки создаются сервером.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/12_hu57b1ccb29b57b1afe1dc09da577ec140_88393_79160ba569a40aa0c1b2f26019d7b1ac.webp 400w,
+               /project/external-course_stage_1/image/12_hu57b1ccb29b57b1afe1dc09da577ec140_88393_0421548d9b64f5276631e337abcfd5a3.webp 760w,
+               /project/external-course_stage_1/image/12_hu57b1ccb29b57b1afe1dc09da577ec140_88393_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/12_hu57b1ccb29b57b1afe1dc09da577ec140_88393_79160ba569a40aa0c1b2f26019d7b1ac.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;324&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Сессионные куки хранятся в браузере только во время текущей сессии и удаляются после закрытия вкладки или браузера.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/13_hu133a6c67068c72971b4bb742f704787a_111039_25dc93b539bacb2ccb60855ed94c9303.webp 400w,
+               /project/external-course_stage_1/image/13_hu133a6c67068c72971b4bb742f704787a_111039_8902761bcd798533d6ef1183727d525c.webp 760w,
+               /project/external-course_stage_1/image/13_hu133a6c67068c72971b4bb742f704787a_111039_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/13_hu133a6c67068c72971b4bb742f704787a_111039_25dc93b539bacb2ccb60855ed94c9303.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;347&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;браузер-tor-анонимизация&#34;&gt;Браузер TOR. Анонимизация&lt;/h2&gt;
+&lt;p&gt;В сети Tor трафик проходит через три промежуточных узла (guard relay, middle relay и exit relay), что обеспечивает анонимность.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/14_hu94daafea2026fa3f3a14ad0ecd0e63d1_98531_14bbd341f57bc65cb79f13885e118cbe.webp 400w,
+               /project/external-course_stage_1/image/14_hu94daafea2026fa3f3a14ad0ecd0e63d1_98531_420142664a83774ab0af17a383087c1e.webp 760w,
+               /project/external-course_stage_1/image/14_hu94daafea2026fa3f3a14ad0ecd0e63d1_98531_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/14_hu94daafea2026fa3f3a14ad0ecd0e63d1_98531_14bbd341f57bc65cb79f13885e118cbe.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;328&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;IP-адрес получателя известен отправителю и выходному узлу, так как он завершает цепочку и передаёт трафик в открытую сеть.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/15_hu6b8a26a31566a60864368bb190b6ccf4_154761_120f66bfc4be19633c372487290b3525.webp 400w,
+               /project/external-course_stage_1/image/15_hu6b8a26a31566a60864368bb190b6ccf4_154761_26bfeabf969ff52861b9c3e7495964ea.webp 760w,
+               /project/external-course_stage_1/image/15_hu6b8a26a31566a60864368bb190b6ccf4_154761_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/15_hu6b8a26a31566a60864368bb190b6ccf4_154761_120f66bfc4be19633c372487290b3525.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;398&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;При использовании onion routing общий секретный ключ для каждого &amp;ldquo;слоя&amp;rdquo; шифрования генерируется отправителем для каждого узла.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/16_hud82a6006a9a72aba9be68da8aa04991e_112679_466b5bc9fe51e28a3c89e17422752929.webp 400w,
+               /project/external-course_stage_1/image/16_hud82a6006a9a72aba9be68da8aa04991e_112679_90a939b328e66bf4e87f9afc1f4db8c4.webp 760w,
+               /project/external-course_stage_1/image/16_hud82a6006a9a72aba9be68da8aa04991e_112679_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/16_hud82a6006a9a72aba9be68da8aa04991e_112679_466b5bc9fe51e28a3c89e17422752929.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;314&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Браузер Tor служит для повышения конфиденциальности, но не является обязательным для успешной доставки пакетов.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/17_hu66963f8bfaf9b1f9658796cb8bd6a195_114187_0beeb0b02ea58269b1441576aaf53d65.webp 400w,
+               /project/external-course_stage_1/image/17_hu66963f8bfaf9b1f9658796cb8bd6a195_114187_62ca75811fc17e06a833b314a840fe85.webp 760w,
+               /project/external-course_stage_1/image/17_hu66963f8bfaf9b1f9658796cb8bd6a195_114187_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/17_hu66963f8bfaf9b1f9658796cb8bd6a195_114187_0beeb0b02ea58269b1441576aaf53d65.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;329&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;беспроводные-сети-wi-fi&#34;&gt;Беспроводные сети Wi-fi&lt;/h2&gt;
+&lt;p&gt;Wi-Fi позволяет устройствам подключаться к локальным сетям и интернету без проводов, используя радиочастотные сигналы, что соответствует стандартам, установленным IEEE 802.11. Остальные варианты не подходят.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/18_hu71ec2c9afff90e873d429eb67fc2cacf_137817_e71018db18430d1e5fe3ea1ecd289fcb.webp 400w,
+               /project/external-course_stage_1/image/18_hu71ec2c9afff90e873d429eb67fc2cacf_137817_a26489278e459a6129021c841b58fb9b.webp 760w,
+               /project/external-course_stage_1/image/18_hu71ec2c9afff90e873d429eb67fc2cacf_137817_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/18_hu71ec2c9afff90e873d429eb67fc2cacf_137817_e71018db18430d1e5fe3ea1ecd289fcb.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;333&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Протокол Wi-Fi работает на канальном уровне модели OSI, обеспечивая беспроводную передачу данных между устройствами в локальной сети, а также отвечает за доступ к среде передачи и управление потоком данных.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/19_hu80f805bc2bcb3186abe242b60d0d66f4_110425_318be723c7f18315567586a57f1e9dce.webp 400w,
+               /project/external-course_stage_1/image/19_hu80f805bc2bcb3186abe242b60d0d66f4_110425_41c65b92ad92a41b78d104930f6bf017.webp 760w,
+               /project/external-course_stage_1/image/19_hu80f805bc2bcb3186abe242b60d0d66f4_110425_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/19_hu80f805bc2bcb3186abe242b60d0d66f4_110425_318be723c7f18315567586a57f1e9dce.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;369&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;WEP является устаревшим и небезопасным методом шифрования для Wi-Fi, поскольку его алгоритмы легко поддаются взлому.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/20_hu9c8057d13d9f3861cfccc97f3ceefc61_110619_528e3a76725e2d8ed0a57c83261fc769.webp 400w,
+               /project/external-course_stage_1/image/20_hu9c8057d13d9f3861cfccc97f3ceefc61_110619_b76949a6dafe4b4c7a1077944cf1f718.webp 760w,
+               /project/external-course_stage_1/image/20_hu9c8057d13d9f3861cfccc97f3ceefc61_110619_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/20_hu9c8057d13d9f3861cfccc97f3ceefc61_110619_528e3a76725e2d8ed0a57c83261fc769.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;372&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;При использовании современных протоколов безопасности Wi-Fi, таких как WPA2 или WPA3, данные шифруются после того, как устройства проходят процесс аутентификации, что обеспечивает конфиденциальность и защиту информации.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/21_hud9aca50848660bd410aa79ba1ce2a290_150504_0e52fda9130fb7b4eac584100c229c65.webp 400w,
+               /project/external-course_stage_1/image/21_hud9aca50848660bd410aa79ba1ce2a290_150504_dfb46d360265f58f25b164b54840565d.webp 760w,
+               /project/external-course_stage_1/image/21_hud9aca50848660bd410aa79ba1ce2a290_150504_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/21_hud9aca50848660bd410aa79ba1ce2a290_150504_0e52fda9130fb7b4eac584100c229c65.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;371&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Этот метод аутентификации предназначен для домашних и небольших офисных сетей, обеспечивая простоту настройки и использования с одним паролем для доступа.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_1/image/22_hu919911ac1aecdd37d4ec0c39f8291af6_106156_1efac6fbf12e00ee268310d665413ccc.webp 400w,
+               /project/external-course_stage_1/image/22_hu919911ac1aecdd37d4ec0c39f8291af6_106156_1165d9990eef9a47de0d2b8e12318b92.webp 760w,
+               /project/external-course_stage_1/image/22_hu919911ac1aecdd37d4ec0c39f8291af6_106156_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_1/image/22_hu919911ac1aecdd37d4ec0c39f8291af6_106156_1efac6fbf12e00ee268310d665413ccc.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;339&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
+&lt;p&gt;Я прошла первый этап &amp;ldquo;Безопасность в сети&amp;rdquo; внешнего курса &amp;ldquo;Основы кибербезопасности&amp;rdquo; и изучила работу Интернета и базовых сетевых протоколов&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Внешний курс «‎Основы кибербезопасности»</title>
+      <link>http://localhost:1313/project/external-course_stage_2/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/external-course_stage_2/</guid>
+      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
+&lt;p&gt;Пройти второй этап &amp;ldquo;Защита ПК/телефона&amp;rdquo; внешнего курса &amp;ldquo;Основы кибербезопасности&amp;rdquo;&lt;/p&gt;
+&lt;h1 id=&#34;задание&#34;&gt;Задание&lt;/h1&gt;
+&lt;p&gt;Изучить:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Как шифруются носители информации и зачем это нужно&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Как пароли хранятся на серверах&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Какие типы фишинговых рассылок бывают и как их можно избежать&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Как достигается безопасность сообщений в современных мессенджерах&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;теоретическое-введение&#34;&gt;Теоретическое введение&lt;/h1&gt;
+&lt;p&gt;Шифрование носителей информации защищает данные от утечки при потере или краже устройства, делая их недоступными без ключа. Процесс включает генерацию ключа шифрования (например, с помощью алгоритма AES), который затем используется для преобразования данных в зашифрованную форму; для доступа требуется пароль, разблокирующий ключ. Современные системы используют аппаратное ускорение (TPM-модули) для эффективного шифрования без заметного замедления работы. Шифровать можно как весь диск, так и отдельные его части, включая загрузочный сектор, что требует ввода пароля при включении устройства. Ключи рекомендуется хранить отдельно от зашифрованного носителя — у администратора, на физических токенах или в защищённых облачных сервисах, а для шифрования используются как встроенные утилиты (BitLocker, FileVault, LUKS), так и сторонние решения (VeraCrypt, PGPDisk).&lt;/p&gt;
+&lt;p&gt;Стойкость пароля определяется сложностью его перебора: чем длиннее пароль и чем разнообразнее используемые символы (цифры, буквы, спецзнаки), тем он надежнее. Для защиты от атак применяются ограничения на попытки ввода, капчи (тесты на человечность) и хранение паролей на серверах в виде хэшей — криптографических преобразований (SHA2, SHA3, ГОСТ), которые невозможно обратить. Дополнительную защиту слабых паролей обеспечивает «соль» — случайные данные, добавляемые к паролю перед хэшированием, что исключает использование заранее подготовленных таблиц хэшей. Для безопасного хранения паролей рекомендуется использовать менеджеры паролей (KeePassXC, Keychain Access), запоминая только один мастер-пароль, а также избегать повторного использования паролей на разных сервисах. Регулярная смена паролей и проверка их на утечки (например, через haveibeenpwned.com) минимизируют риски компрометации данных.&lt;/p&gt;
+&lt;p&gt;Фишинг — это кибератака, направленная на получение конфиденциальных данных путём маскировки под доверенные сервисы (сайты, банки, почтовые сервисы). Основные виды включают адресный фишинг (поддельные ссылки в письмах), телефонный фишинг (мошеннические звонки) и календарный фишинг (вредоносные события). Технологии вроде SPF и DMARC помогают бороться с email-спуфингом (подменой отправителя), но не исключают человеческий фактор. Ключевая защита — критическая проверка подозрительных писем, ссылок (особенно с HTTP вместо HTTPS) и отправителей. Использование надёжных почтовых сервисов с фильтрами спама и обучение цифровой грамотности снижают риски успешных атак.&lt;/p&gt;
+&lt;p&gt;Компьютерные вирусы представляют собой вредоносные программы различных типов, каждый из которых имеет специфические механизмы распространения и воздействия. Почтовые черви (например, Mydoom и Sobig) распространяются через электронную почту, маскируясь под легитимные сообщения и заражая системы при открытии вложений. Программы-вымогатели (такие как WannaCry) шифруют данные пользователей и требуют выкуп за их расшифровку, используя уязвимости в операционных системах. Троянские программы (включая Flashback и Pegasus) маскируются под полезное ПО, но выполняют скрытые вредоносные действия, такие как кража данных или шпионаж. Основными мерами защиты являются регулярное обновление ПО, создание резервных копий данных и внимательное отношение к разрешениям, запрашиваемым приложениями.&lt;/p&gt;
+&lt;p&gt;Современные мессенджеры обеспечивают безопасность сообщений через пять ключевых принципов: целостность данных (точность передачи), конфиденциальность (шифрование), аутентификацию (подтверждение отправителя), устойчивость к потерям (доставка при восстановлении связи) и прямую секретность (защита прошлых сообщений при компрометации ключа). Сквозное шифрование (E2EE) реализуется через обмен открытыми ключами и генерацию общих сессионных ключей, что исключает доступ сервера к содержимому сообщений. Протокол Signal, лежащий в основе многих мессенджеров, использует динамическое обновление ключей для обеспечения как прямой секретности, так и восстановления безопасности после компрометации. Групповые чаты шифруются через индивидуальные ключи участников, где каждое сообщение шифруется ключом отправителя и расшифровывается получателями своими копиями этого ключа. Математическая сложность восстановления общих ключей из открытых данных гарантирует стойкость шифрования даже при перехвате трафика.&lt;/p&gt;
+&lt;h1 id=&#34;выполнение-внешнего-курса&#34;&gt;Выполнение внешнего курса&lt;/h1&gt;
+&lt;h2 id=&#34;шифрование-диска&#34;&gt;Шифрование диска&lt;/h2&gt;
+&lt;p&gt;Зашифровать загрузочный сектор диска можно с помощью различных средств шифрования, таких как BitLocker для Windows или LUKS для Linux, что позволяет защитить данные и предотвратить несанкционированный доступ.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/1_hub6e6dff42c315cd825fbbe44aa2fc80f_93218_675990c99449c025a525eca3ed2e7e2f.webp 400w,
+               /project/external-course_stage_2/image/1_hub6e6dff42c315cd825fbbe44aa2fc80f_93218_3b6827f6356114fc47b38bfaac782b90.webp 760w,
+               /project/external-course_stage_2/image/1_hub6e6dff42c315cd825fbbe44aa2fc80f_93218_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/1_hub6e6dff42c315cd825fbbe44aa2fc80f_93218_675990c99449c025a525eca3ed2e7e2f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;333&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Шифрование диска обычно использует симметричное шифрование, при котором один и тот же ключ используется как для шифрования, так и для дешифрования данных.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/2_hu293adda23a1c8d070d13321357102e89_102887_7bd39317bfded6a377d3ea62f9ec4e95.webp 400w,
+               /project/external-course_stage_2/image/2_hu293adda23a1c8d070d13321357102e89_102887_d0b1231c03b940f2e6d1f75a011d1545.webp 760w,
+               /project/external-course_stage_2/image/2_hu293adda23a1c8d070d13321357102e89_102887_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/2_hu293adda23a1c8d070d13321357102e89_102887_7bd39317bfded6a377d3ea62f9ec4e95.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;366&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;VeraCrypt является бесплатным и открытым решением, а BitLocker встроен в операционные системы Windows и обеспечивает шифрование дисков на уровне всей системы.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/3_hu38a3dddc0947ec104e196e4f08b5229c_152762_5aff59fed4718e029e69f3356820bb01.webp 400w,
+               /project/external-course_stage_2/image/3_hu38a3dddc0947ec104e196e4f08b5229c_152762_d23445715871fb88d128d58488d19796.webp 760w,
+               /project/external-course_stage_2/image/3_hu38a3dddc0947ec104e196e4f08b5229c_152762_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/3_hu38a3dddc0947ec104e196e4f08b5229c_152762_5aff59fed4718e029e69f3356820bb01.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;415&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;пароли&#34;&gt;Пароли&lt;/h2&gt;
+&lt;p&gt;Пароль &amp;ldquo;UQr9@j4!S$&amp;rdquo; считается стойким, так как он сочетает в себе заглавные буквы, строчные буквы, цифры и специальные символы, что делает его более защищенным от взлома.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/4_hu011326cf7cd48442c72b31f4582983d7_108986_022433746947c332e78431825329b97d.webp 400w,
+               /project/external-course_stage_2/image/4_hu011326cf7cd48442c72b31f4582983d7_108986_90c51060087d76f7aaf92498cd77c7fe.webp 760w,
+               /project/external-course_stage_2/image/4_hu011326cf7cd48442c72b31f4582983d7_108986_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/4_hu011326cf7cd48442c72b31f4582983d7_108986_022433746947c332e78431825329b97d.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;367&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Менеджеры паролей обеспечивают безопасное хранение и шифрование паролей, что значительно снижает риск их кражи.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/5_hu5d339631972f00e496f956f47bebdc23_124081_07237dba95082c179275d15a384fd6c6.webp 400w,
+               /project/external-course_stage_2/image/5_hu5d339631972f00e496f956f47bebdc23_124081_bb6b7674371c6e7696982de8b1d094a6.webp 760w,
+               /project/external-course_stage_2/image/5_hu5d339631972f00e496f956f47bebdc23_124081_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/5_hu5d339631972f00e496f956f47bebdc23_124081_07237dba95082c179275d15a384fd6c6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;402&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Капча используется для различения человека от автоматизированных программ и предотвращения злоумышленников от совершения действий, таких как спам или брутфорс-атаки.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/6_hudde58300e2d58a9655a1e6425608aa8a_127307_263116790263a461f5b56fdc253ed708.webp 400w,
+               /project/external-course_stage_2/image/6_hudde58300e2d58a9655a1e6425608aa8a_127307_536c635963203cafa322937c2f040183.webp 760w,
+               /project/external-course_stage_2/image/6_hudde58300e2d58a9655a1e6425608aa8a_127307_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/6_hudde58300e2d58a9655a1e6425608aa8a_127307_263116790263a461f5b56fdc253ed708.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;368&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Хэширование паролей обеспечивает безопасность, так как даже в случае утечки данных хэшированные пароли нельзя легко восстановить в их исходном виде.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/7_hudc3307649f290b55f24479b5184c4cfd_136576_905c01c70e28ddb2f50a97d7ac1dd0bd.webp 400w,
+               /project/external-course_stage_2/image/7_hudc3307649f290b55f24479b5184c4cfd_136576_615c28a395717bb85fa93cc57afdbb28.webp 760w,
+               /project/external-course_stage_2/image/7_hudc3307649f290b55f24479b5184c4cfd_136576_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/7_hudc3307649f290b55f24479b5184c4cfd_136576_905c01c70e28ddb2f50a97d7ac1dd0bd.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;376&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Вообще соль помогает предотвратить атаки с использованием радужных таблиц и обеспечивает уникальность хэшей, но если злоумышленник уже получил доступ к серверу и хэшам паролей, добавление соли не поможет улучшить стойкость паролей к атакам, так как у него все равно будет доступ к этим дополнительным данным.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/8_hu0347bb9a6546f1e489e5b5caf78ef322_95076_22c2779630499040166d16582d16616e.webp 400w,
+               /project/external-course_stage_2/image/8_hu0347bb9a6546f1e489e5b5caf78ef322_95076_bd11e6241a210866b038d46bef192c3d.webp 760w,
+               /project/external-course_stage_2/image/8_hu0347bb9a6546f1e489e5b5caf78ef322_95076_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/8_hu0347bb9a6546f1e489e5b5caf78ef322_95076_22c2779630499040166d16582d16616e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;316&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Каждая из этих мер поможет избежать атаки перебором:
+разные пароли сохранят аккаунты, даже если один из них был взломан;
+аналогично поможет периодическая смена паролей (если они надежные);
+сложные и длинные пароли труднее подобрать перебором;
+капча затруднит процесс.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/9_hu8e65173f64b613e345a215fc7f85d88b_154657_9029cba3bda78b0fee59c3cbe346e51c.webp 400w,
+               /project/external-course_stage_2/image/9_hu8e65173f64b613e345a215fc7f85d88b_154657_d3e2889d1400d11f940aaf4a772e87f0.webp 760w,
+               /project/external-course_stage_2/image/9_hu8e65173f64b613e345a215fc7f85d88b_154657_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/9_hu8e65173f64b613e345a215fc7f85d88b_154657_9029cba3bda78b0fee59c3cbe346e51c.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;418&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;фишинг&#34;&gt;Фишинг&lt;/h2&gt;
+&lt;p&gt;Фишинговыми являются ссылки, которые не ведут на официальные сайты, а имитируют их. Таким образом &lt;a href=&#34;https://online.sberbank.wix.ru/CSAFront/index.do&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://online.sberbank.wix.ru/CSAFront/index.do&lt;/a&gt; - это фишинговая ссылка, так как домен содержит &amp;ldquo;wix.ru&amp;rdquo;, который указывает на бесплатный конструктор сайтов, а не на официальный сайт Сбербанка. И &lt;a href=&#34;https://passport.yandex.ucoz.ru/auth?origin=homedesktopru&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://passport.yandex.ucoz.ru/auth?origin=homedesktopru&lt;/a&gt; также является фишинговой, так как домен &amp;ldquo;ucoz.ru&amp;rdquo; не является официальным доменом Яндекса&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/10_hu89c7c4b2e0f0d96c3ca9ce664ccd7d1b_206368_2f834c9e3a636fc3a0486987065642e4.webp 400w,
+               /project/external-course_stage_2/image/10_hu89c7c4b2e0f0d96c3ca9ce664ccd7d1b_206368_2778687b88ea11cc9b7348bc52d9ab21.webp 760w,
+               /project/external-course_stage_2/image/10_hu89c7c4b2e0f0d96c3ca9ce664ccd7d1b_206368_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/10_hu89c7c4b2e0f0d96c3ca9ce664ccd7d1b_206368_2f834c9e3a636fc3a0486987065642e4.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;404&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Может, так как злоумышленники могут подделать адрес отправителя (или взломать его)&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/11_hua9b1b11923057cc45e1f6514344427b1_89360_63cfb3c92a286984e815bda559c6e9b1.webp 400w,
+               /project/external-course_stage_2/image/11_hua9b1b11923057cc45e1f6514344427b1_89360_5ab7505158ed2d69ebc028ab48e6c797.webp 760w,
+               /project/external-course_stage_2/image/11_hua9b1b11923057cc45e1f6514344427b1_89360_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/11_hua9b1b11923057cc45e1f6514344427b1_89360_63cfb3c92a286984e815bda559c6e9b1.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;334&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;вирусы&#34;&gt;Вирусы&lt;/h2&gt;
+&lt;p&gt;Это метод, который злоумышленники используют для подделки адреса отправителя, чтобы сделать имейл более убедительным и обмануть получателя, заставив его думать, что сообщение пришло от надежного источника.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/12_hu5d56368d28032998f5bb8674e1b6b48f_119328_4af59a7e3d241fb2ac533d749ecd939f.webp 400w,
+               /project/external-course_stage_2/image/12_hu5d56368d28032998f5bb8674e1b6b48f_119328_97418656a45cd03defe68df012ffb171.webp 760w,
+               /project/external-course_stage_2/image/12_hu5d56368d28032998f5bb8674e1b6b48f_119328_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/12_hu5d56368d28032998f5bb8674e1b6b48f_119328_4af59a7e3d241fb2ac533d749ecd939f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;355&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Оправдывая свое название, этот вирус скрывает свое истинное предназначение, представляясь легитимным программным обеспечением.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/13_hud56e4d873cd457fcaf8b8c471d42738a_126326_2850efbbf8eca537a4be52da7d97f74e.webp 400w,
+               /project/external-course_stage_2/image/13_hud56e4d873cd457fcaf8b8c471d42738a_126326_e35d01b9e35e1d1993a8dd258c53b909.webp 760w,
+               /project/external-course_stage_2/image/13_hud56e4d873cd457fcaf8b8c471d42738a_126326_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/13_hud56e4d873cd457fcaf8b8c471d42738a_126326_2850efbbf8eca537a4be52da7d97f74e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;377&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;В протоколе Signal ключ шифрования формируется при отправке первого сообщения, что обеспечивает создание уникальных ключей для безопасной связи между сторонами.&lt;/p&gt;
+&lt;h2 id=&#34;безопасность-мессенджеров&#34;&gt;Безопасность мессенджеров&lt;/h2&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/14_hu903c54c00aafd9ddde3a00574760f7c9_132152_28a6fb6245490bbb3d21f21086a28a23.webp 400w,
+               /project/external-course_stage_2/image/14_hu903c54c00aafd9ddde3a00574760f7c9_132152_112137efc90d21eb9375d0c6cb8d15f4.webp 760w,
+               /project/external-course_stage_2/image/14_hu903c54c00aafd9ddde3a00574760f7c9_132152_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/14_hu903c54c00aafd9ddde3a00574760f7c9_132152_28a6fb6245490bbb3d21f21086a28a23.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;364&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Суть сквозного шифрования заключается в том, что только отправитель и получатель могут расшифровать сообщения, находящиеся в зашифрованном виде в процессе передачи через серверы, которые не имеют доступа к их содержимому.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_2/image/15_hudba1f98186327bb3ce8daf978ff2c95b_162518_fcabbff49c9ec65fc9c6298b80e4c229.webp 400w,
+               /project/external-course_stage_2/image/15_hudba1f98186327bb3ce8daf978ff2c95b_162518_9bb2280865520c1396b3fda19bf55715.webp 760w,
+               /project/external-course_stage_2/image/15_hudba1f98186327bb3ce8daf978ff2c95b_162518_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_2/image/15_hudba1f98186327bb3ce8daf978ff2c95b_162518_fcabbff49c9ec65fc9c6298b80e4c229.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;365&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
+&lt;p&gt;Я прошла второй этап &amp;ldquo;Защита ПК/телефона&amp;rdquo; внешнего курса &amp;ldquo;Основы кибербезопасности&amp;rdquo; и изучила, как шифруются носители информации и зачем это нужно.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Внешний курс «‎Основы кибербезопасности»</title>
+      <link>http://localhost:1313/project/external-course_stage_3/</link>
+      <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/project/external-course_stage_3/</guid>
+      <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
+&lt;p&gt;Пройти третий этап &amp;ldquo;Криптография на практике&amp;rdquo; внешнего курса &amp;ldquo;Основы кибербезопасности&amp;rdquo;&lt;/p&gt;
+&lt;h1 id=&#34;задание&#34;&gt;Задание&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Научиться различать основные криптографические протоколы – симметричное шифрование, аутентификацю, цифровую подпись и хэширование.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Узнать, как устроены электронные платежи&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Разобраться в системе блокчейн: как она строится, какую задачу в информатике решает&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&#34;теоретическое-введение&#34;&gt;Теоретическое введение&lt;/h1&gt;
+&lt;p&gt;Криптография делится на симметричную и асимметричную: в симметричной криптографии стороны используют общий секретный ключ (например, для шифрования или аутентификации), а в асимметричной — пару из открытого и закрытого ключей (например, для цифровой подписи или обмена ключами). Криптографические хэш-функции — это бесключевые примитивы, обеспечивающие целостность данных и стойкость к коллизиям. Симметричное шифрование обеспечивает конфиденциальность, а цифровая подпись — аутентификацию, целостность и неотказуемость. Современные протоколы часто комбинируют симметричные и асимметричные методы для эффективности и безопасности.&lt;/p&gt;
+&lt;p&gt;Электронно-цифровая подпись (ЭЦП) обеспечивает три ключевых свойства: целостность сообщения (позволяет обнаружить изменения), аутентификацию (подтверждает авторство) и неотказуемость (исключает отказ от подписи). Основные применения ЭЦП — проверка подлинности обновлений ПО (верификация подписи разработчика) и сертификация открытых ключей через удостоверяющие центры (например, стандарт X.509). Алгоритм ЭЦП включает три этапа: генерацию ключевой пары (открытый и закрытый ключи), создание подписи с помощью закрытого ключа и её проверку через открытый ключ. Безопасность схемы требует, чтобы злоумышленник не мог подделать подпись, даже зная открытый ключ и имея доступ к другим подписанным сообщениям. Популярные алгоритмы ЭЦП — RSA, ECDSA и ГОСТ Р 34.10-2012, а юридическая значимость подписи зависит от её типа (простая, усиленная неквалифицированная или квалифицированная).&lt;/p&gt;
+&lt;p&gt;Электронные платежи включают два основных этапа: авторизацию (криптографическую проверку) и транзакцию (перевод средств). Авторизация при оплате картой (CP) требует физического присутствия карты и PIN-кода, который используется для создания цифровой подписи, проверяемой банком-эмитентом. Для онлайн-платежей (CNP) применяется протокол 3-D Secure, где участвуют три домена: банк-эмитент, платежная система и продавец, а аутентификация происходит через многофакторную проверку (например, SMS-код). Безопасность обеспечивается за счет TLS-шифрования, разделения запрашиваемых данных (PIN — для офлайн, CVV — для онлайн) и обязательной двухфакторной аутентификации для онлайн-операций. Таким образом, система электронных платежей сочетает криптографические методы и многоуровневую проверку для защиты от мошенничества.&lt;/p&gt;
+&lt;p&gt;Блокчейн — это децентрализованная система, обеспечивающая неизменяемый публичный реестр транзакций (ledger) без участия доверенных третьих сторон. Его ключевые свойства включают постоянство данных, консенсус между участниками, живучесть (возможность добавления новых блоков) и открытость (доступность для любого участника). Для достижения консенсуса используются криптографические механизмы, такие как доказательство работы (PoW), где майнеры решают вычислительно сложные задачи (например, подбор хэша с заданным числом нулей), чтобы добавить блок и получить вознаграждение. Альтернативные механизмы, такие как доказательство доли владения (PoS), решают проблему энергозатратности PoW, но вводят зависимость от финансовой доли участника в системе. Блокчейн обеспечивает безопасность транзакций за счет цифровых подписей (подтверждающих авторство) и криптографической защиты от двойного расходования средств.&lt;/p&gt;
+&lt;h1 id=&#34;выполнение-внешнего-курса&#34;&gt;Выполнение внешнего курса&lt;/h1&gt;
+&lt;h2 id=&#34;введение-в-криптографию&#34;&gt;Введение в криптографию&lt;/h2&gt;
+&lt;p&gt;В асимметричной криптографии одна сторона использует свой открытый ключ для шифрования данных, в то время как другая сторона использует свой секретный ключ для их расшифровки. Почему тут правильный ответ пара (как в симметричном шифровании) я без понятия ._.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/1_hufb2aad0ad8f28f35c54df52d3b732368_147907_2af4b439c94ae34548baf638cb61d1a2.webp 400w,
+               /project/external-course_stage_3/image/1_hufb2aad0ad8f28f35c54df52d3b732368_147907_6e133ad656d444cf360f022f9fd28bef.webp 760w,
+               /project/external-course_stage_3/image/1_hufb2aad0ad8f28f35c54df52d3b732368_147907_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/1_hufb2aad0ad8f28f35c54df52d3b732368_147907_2af4b439c94ae34548baf638cb61d1a2.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;367&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Криптографическая хэш-функция должна быть быстрой для вычисления, чтобы ее можно было применять на практике; независимо от размера входных данных, результат всегда будет иметь фиксированный размер и сложно найти два различных набора входных данных, которые дают один и тот же хэш.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/2_hub8724891df9748b4abba382fac5c3e1f_173545_38a8f4e89271a959dafc9484f3326251.webp 400w,
+               /project/external-course_stage_3/image/2_hub8724891df9748b4abba382fac5c3e1f_173545_3e020607862859bfd7e3e8e80240d8bb.webp 760w,
+               /project/external-course_stage_3/image/2_hub8724891df9748b4abba382fac5c3e1f_173545_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/2_hub8724891df9748b4abba382fac5c3e1f_173545_38a8f4e89271a959dafc9484f3326251.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;424&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;AES и SHA2 не являются алгоритмами цифровой подписи: AES — это симметричный шифровальный алгоритм, а SHA2 — это криптографическая хэш-функция. А все остальные - алгоритмы цифровой подписи.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/3_hu3cc9e636a0fca5028e51cfa838dc2e14_147160_dba33e37c260de77b9170585fb866397.webp 400w,
+               /project/external-course_stage_3/image/3_hu3cc9e636a0fca5028e51cfa838dc2e14_147160_1f364528cf7cef9ad982efa28dbc4828.webp 760w,
+               /project/external-course_stage_3/image/3_hu3cc9e636a0fca5028e51cfa838dc2e14_147160_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/3_hu3cc9e636a0fca5028e51cfa838dc2e14_147160_dba33e37c260de77b9170585fb866397.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;459&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Код аутентификации сообщения обычно создается с использованием симметричного ключа, который известен обеим сторонам.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/4_hu2da1d6677c55e14c861d3728581fb5ae_100537_873c4385469dcde6485748d055d2c9c3.webp 400w,
+               /project/external-course_stage_3/image/4_hu2da1d6677c55e14c861d3728581fb5ae_100537_8122acd7e2cb312597089efb62ea5488.webp 760w,
+               /project/external-course_stage_3/image/4_hu2da1d6677c55e14c861d3728581fb5ae_100537_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/4_hu2da1d6677c55e14c861d3728581fb5ae_100537_873c4385469dcde6485748d055d2c9c3.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;327&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Обмен ключами Диффи-Хэллмана позволяет двум сторонам безопасно согласовать общий секретный ключ, используя асимметричные методы, даже если они обмениваются данными через небезопасный канал.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/5_hu22782d905d192bda2537d99b05bad3b6_137658_1dcb45ecbbfd3e44577491c5cb3dfd1e.webp 400w,
+               /project/external-course_stage_3/image/5_hu22782d905d192bda2537d99b05bad3b6_137658_a2a4d9d2d0ae57515bfb4702347071a7.webp 760w,
+               /project/external-course_stage_3/image/5_hu22782d905d192bda2537d99b05bad3b6_137658_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/5_hu22782d905d192bda2537d99b05bad3b6_137658_1dcb45ecbbfd3e44577491c5cb3dfd1e.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;372&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;цифровая-подпись&#34;&gt;Цифровая подпись&lt;/h2&gt;
+&lt;p&gt;Протоколы электронной цифровой подписи используют асимметричное шифрование, при котором одна сторона создает цифровую подпись с помощью своего секретного ключа, а другая сторона может проверить подпись с использованием публичного ключа.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/6_hub174ebe57888cd44dc09f9e7fa1b378b_110038_02d42b3e0a861236742d673dcad0adfa.webp 400w,
+               /project/external-course_stage_3/image/6_hub174ebe57888cd44dc09f9e7fa1b378b_110038_bed397ea3930c665ea2cf02037f20858.webp 760w,
+               /project/external-course_stage_3/image/6_hub174ebe57888cd44dc09f9e7fa1b378b_110038_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/6_hub174ebe57888cd44dc09f9e7fa1b378b_110038_02d42b3e0a861236742d673dcad0adfa.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;339&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Алгоритм верификации электронной цифровой подписи использует подписанное сообщение, открытый ключ отправителя и саму подпись для проверки подлинности и целостности сообщения. Секретный ключ в этом процессе не используется, поскольку он предназначен только для создания подписи.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/7_hue53ad5e9193f4cfb9acf17927233728c_129295_53a7a16d5ee230a6522aa271d0090a7f.webp 400w,
+               /project/external-course_stage_3/image/7_hue53ad5e9193f4cfb9acf17927233728c_129295_750ef1290a05d0fb268c0f7c384753cf.webp 760w,
+               /project/external-course_stage_3/image/7_hue53ad5e9193f4cfb9acf17927233728c_129295_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/7_hue53ad5e9193f4cfb9acf17927233728c_129295_53a7a16d5ee230a6522aa271d0090a7f.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;367&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Электронная цифровая подпись обеспечивает аутентификацию, целостность и неотказ от авторства, однако сама по себе не защищает конфиденциальность сообщения.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/8_hue53ad5e9193f4cfb9acf17927233728c_112256_09e812e2b666a0d2c39f1b5f9f4c67dd.webp 400w,
+               /project/external-course_stage_3/image/8_hue53ad5e9193f4cfb9acf17927233728c_112256_3dd33fb1a32c753c42f4fa53881c1c3a.webp 760w,
+               /project/external-course_stage_3/image/8_hue53ad5e9193f4cfb9acf17927233728c_112256_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/8_hue53ad5e9193f4cfb9acf17927233728c_112256_09e812e2b666a0d2c39f1b5f9f4c67dd.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;367&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Для отправки налоговой отчетности в ФНС требуется усиленная квалифицированная электронная подпись, так как она соответствует требованиям законодательства и обеспечивает высокий уровень защиты и аутентичности данных.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/9_hu9170a1002abb25b14e95432dbfdf849c_121330_eb01940cf742760f3df06e3f28b78f14.webp 400w,
+               /project/external-course_stage_3/image/9_hu9170a1002abb25b14e95432dbfdf849c_121330_cc6fb03a9a4d20dfcb1853db3e78980d.webp 760w,
+               /project/external-course_stage_3/image/9_hu9170a1002abb25b14e95432dbfdf849c_121330_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/9_hu9170a1002abb25b14e95432dbfdf849c_121330_eb01940cf742760f3df06e3f28b78f14.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;341&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Квалифицированный сертификат ключа проверки электронной подписи может быть получен только в сертификационном центре, который имеет право выдавать такие сертификаты в соответствии с законодательством.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/10_hu06385be1f21ad5417dfd77bf816668b2_147508_f67fd684480cb23ede98b39acedbcb22.webp 400w,
+               /project/external-course_stage_3/image/10_hu06385be1f21ad5417dfd77bf816668b2_147508_1de83e255961fb6f29a1ea7ad5c3e320.webp 760w,
+               /project/external-course_stage_3/image/10_hu06385be1f21ad5417dfd77bf816668b2_147508_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/10_hu06385be1f21ad5417dfd77bf816668b2_147508_f67fd684480cb23ede98b39acedbcb22.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;365&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;электронные-платежи&#34;&gt;Электронные платежи&lt;/h2&gt;
+&lt;p&gt;МИР —  национальная платежная система России, MasterCard — международная платежная система, предоставляющая услуги по обработке платежей.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/11_hu5171826d6e8a85eae296c5341f110537_152889_8abceb58b2d963e450e5dd81bb0927ef.webp 400w,
+               /project/external-course_stage_3/image/11_hu5171826d6e8a85eae296c5341f110537_152889_3984440150c60c51d071faeb00ed14dc.webp 760w,
+               /project/external-course_stage_3/image/11_hu5171826d6e8a85eae296c5341f110537_152889_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/11_hu5171826d6e8a85eae296c5341f110537_152889_8abceb58b2d963e450e5dd81bb0927ef.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;448&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Ответы на скриноште - это пример многофакторной аутентификации, так как они включают два различных фактора: что-то, что пользователь знает (пароль), и что-то, что у него есть (код, отправленный по SMS).&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/12_hu5520e789bab1f49760a97a2031e1d62d_177461_f48cffb41c1533dcbac6349401bc2f2b.webp 400w,
+               /project/external-course_stage_3/image/12_hu5520e789bab1f49760a97a2031e1d62d_177461_26c69388008c0cf6c10f4d9dab05aa85.webp 760w,
+               /project/external-course_stage_3/image/12_hu5520e789bab1f49760a97a2031e1d62d_177461_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/12_hu5520e789bab1f49760a97a2031e1d62d_177461_f48cffb41c1533dcbac6349401bc2f2b.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;412&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;При онлайн-платежах часто используется многофакторная аутентификация, чтобы повысить уровень безопасности транзакций, сочетая различные методы проверки, такие как пароли, коды из SMS и другие способы идентификации, чтобы подтвердить личность покупателя перед банком-эквайером.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/13_hua80b5fde907e7f8e4ffed8d119f82bde_157608_7f78a1efbabed343afe1c6f9dbeec393.webp 400w,
+               /project/external-course_stage_3/image/13_hua80b5fde907e7f8e4ffed8d119f82bde_157608_f9c4af5e7461597c0797727dcb90266d.webp 760w,
+               /project/external-course_stage_3/image/13_hua80b5fde907e7f8e4ffed8d119f82bde_157608_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/13_hua80b5fde907e7f8e4ffed8d119f82bde_157608_7f78a1efbabed343afe1c6f9dbeec393.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;386&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h2 id=&#34;блокчейн&#34;&gt;Блокчейн&lt;/h2&gt;
+&lt;p&gt;Это свойство криптографической хэш-функции используется в доказательстве работы (Proof of Work) для обеспечения безопасности и предотвращения мошенничества в блокчейне.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/14_hu16589c2f7d58996d098e85463db4f3e4_132429_ea6e69e0617042925951cd901110a4b6.webp 400w,
+               /project/external-course_stage_3/image/14_hu16589c2f7d58996d098e85463db4f3e4_132429_7059ec1cbca115ea8b2274206acca7af.webp 760w,
+               /project/external-course_stage_3/image/14_hu16589c2f7d58996d098e85463db4f3e4_132429_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/14_hu16589c2f7d58996d098e85463db4f3e4_132429_ea6e69e0617042925951cd901110a4b6.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;371&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Все три свойства важны для достижения консенсуса в блокчейн-системах :&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;Постоянство — данные в блокчейне остаются неизменными после подтверждения, что гарантирует их целостность;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Открытость — большинство систем блокчейн имеют открытый исходный код и прозрачные механизмы, что позволяет любому участнику сети проверять и верифицировать транзакции;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Живучесть — системы блокчейн должны быть устойчивыми к сбоям и атакам, то есть продолжать функционировать даже при присутствии злонамеренных участников&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/15_hueb8d98526db01b04386eeb3cc15d47de_151432_ef53dc446853767e62f64372b7580286.webp 400w,
+               /project/external-course_stage_3/image/15_hueb8d98526db01b04386eeb3cc15d47de_151432_e6d39103b56769a91af51e5630cc5723.webp 760w,
+               /project/external-course_stage_3/image/15_hueb8d98526db01b04386eeb3cc15d47de_151432_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/15_hueb8d98526db01b04386eeb3cc15d47de_151432_ef53dc446853767e62f64372b7580286.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;416&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;p&gt;Участники блокчейна используют секретные ключи для создания цифровых подписей, которые подтверждают подлинность и целостность транзакций.&lt;/p&gt;
+&lt;p&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;figure  &gt;
+  &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
+    &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
+               /project/external-course_stage_3/image/16_huc2f9a527d53f564cf287a47126460e5e_112962_5eff6de50c01a5ca9fec35f32f4df196.webp 400w,
+               /project/external-course_stage_3/image/16_huc2f9a527d53f564cf287a47126460e5e_112962_5f32495882c185d2ba5aa2bbccccbd37.webp 760w,
+               /project/external-course_stage_3/image/16_huc2f9a527d53f564cf287a47126460e5e_112962_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
+               src=&#34;http://localhost:1313/project/external-course_stage_3/image/16_huc2f9a527d53f564cf287a47126460e5e_112962_5eff6de50c01a5ca9fec35f32f4df196.webp&#34;
+               width=&#34;760&#34;
+               height=&#34;383&#34;
+               loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
+  &lt;/div&gt;&lt;/figure&gt;
+&lt;/p&gt;
+&lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
+&lt;p&gt;Я прошла третий этап &amp;ldquo;Криптография на практике&amp;rdquo; внешнего курса &amp;ldquo;Основы кибербезопасности&amp;rdquo; и научилась различать основные криптографические протоколы – симметричное шифрование, аутентификацю, цифровую подпись и хэширование&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Last week</title>
       <link>http://localhost:1313/post/myweek/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
