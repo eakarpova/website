@@ -1,7 +1,7 @@
 name: Deploy Hugo to GitHub Pages
 
 env:
-  WC_HUGO_VERSION: '0.125.3'  # Обновите до последней версии!
+  WC_HUGO_VERSION: '0.125.3' 
 
 on:
   push:
@@ -11,11 +11,18 @@ permissions:
   contents: read
   pages: write
   id-token: write
+  
 
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - name: Cache upload-artifact@v3 (fix)
+        uses: actions/upload-artifact@v3
+        with:
+          path: /tmp
+          retention-days: 1
+          
       - name: Checkout
         uses: actions/checkout@v4
         with:
