@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Academic</title>
-    <link>http://localhost:1313/</link>
-      <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/</link>
+      <atom:link href="https://example.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Academic</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Academic</title>
-      <link>http://localhost:1313/</link>
+      <link>https://example.com/</link>
     </image>
     
     <item>
       <title>Example Talk</title>
-      <link>http://localhost:1313/talk/example-talk/</link>
+      <link>https://example.com/talk/example-talk/</link>
       <pubDate>Sat, 01 Jun 2030 13:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/talk/example-talk/</guid>
+      <guid>https://example.com/talk/example-talk/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
@@ -34,9 +34,9 @@
     
     <item>
       <title>Внешний курс «‎Основы кибербезопасности»</title>
-      <link>http://localhost:1313/project/external-course_stage_1/</link>
+      <link>https://example.com/project/external-course_stage_1/</link>
       <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/external-course_stage_1/</guid>
+      <guid>https://example.com/project/external-course_stage_1/</guid>
       <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
 &lt;p&gt;Пройти первый этап &amp;ldquo;Безопасность в сети&amp;rdquo; внешнего курса &amp;ldquo;Основы кибербезопасности&amp;rdquo;&lt;/p&gt;
 &lt;h1 id=&#34;задание&#34;&gt;Задание&lt;/h1&gt;
@@ -82,10 +82,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/1_hu63588155694124828086419d4b6306b3_102730_3a09bc6ad0f33e61bc60f48c9f58ecb0.webp 400w,
+               /project/external-course_stage_1/image/1_hu63588155694124828086419d4b6306b3_102730_238746516d0b99a1d074f24f80c62312.webp 400w,
                /project/external-course_stage_1/image/1_hu63588155694124828086419d4b6306b3_102730_53b0279bbc58a33eec7c9e8bba35238d.webp 760w,
                /project/external-course_stage_1/image/1_hu63588155694124828086419d4b6306b3_102730_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/1_hu63588155694124828086419d4b6306b3_102730_3a09bc6ad0f33e61bc60f48c9f58ecb0.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/1_hu63588155694124828086419d4b6306b3_102730_238746516d0b99a1d074f24f80c62312.webp&#34;
                width=&#34;760&#34;
                height=&#34;378&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -111,10 +111,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/2_huf99661c0a3301fb5fa090879383e65ff_86072_7c60c2c3eee76bed7678996fa4030eb9.webp 400w,
+               /project/external-course_stage_1/image/2_huf99661c0a3301fb5fa090879383e65ff_86072_98574ccab9e5f5961b0d769e16a39920.webp 400w,
                /project/external-course_stage_1/image/2_huf99661c0a3301fb5fa090879383e65ff_86072_025e0bdc5e7873fd91fd0f5ed5444116.webp 760w,
                /project/external-course_stage_1/image/2_huf99661c0a3301fb5fa090879383e65ff_86072_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/2_huf99661c0a3301fb5fa090879383e65ff_86072_7c60c2c3eee76bed7678996fa4030eb9.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/2_huf99661c0a3301fb5fa090879383e65ff_86072_98574ccab9e5f5961b0d769e16a39920.webp&#34;
                width=&#34;760&#34;
                height=&#34;317&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -140,10 +140,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/3_hu1a5559507b545be99472cea3c149dbf2_124238_c0a7cf171fb9057abf587aa5cd87c79d.webp 400w,
+               /project/external-course_stage_1/image/3_hu1a5559507b545be99472cea3c149dbf2_124238_f523746cf0ff21cbcf546bd609838b64.webp 400w,
                /project/external-course_stage_1/image/3_hu1a5559507b545be99472cea3c149dbf2_124238_f460d0274fed38bda29e39ebb2de5198.webp 760w,
                /project/external-course_stage_1/image/3_hu1a5559507b545be99472cea3c149dbf2_124238_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/3_hu1a5559507b545be99472cea3c149dbf2_124238_c0a7cf171fb9057abf587aa5cd87c79d.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/3_hu1a5559507b545be99472cea3c149dbf2_124238_f523746cf0ff21cbcf546bd609838b64.webp&#34;
                width=&#34;760&#34;
                height=&#34;369&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -169,10 +169,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/4_hu02cd030b7bf20cc5ba64c1aa1ea1c461_104264_cba51e0570a100700ac05b2b31379899.webp 400w,
+               /project/external-course_stage_1/image/4_hu02cd030b7bf20cc5ba64c1aa1ea1c461_104264_b70fd030f78d638706de5220e811c912.webp 400w,
                /project/external-course_stage_1/image/4_hu02cd030b7bf20cc5ba64c1aa1ea1c461_104264_acf43b9abe2b4681bf00d7f4f5724b11.webp 760w,
                /project/external-course_stage_1/image/4_hu02cd030b7bf20cc5ba64c1aa1ea1c461_104264_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/4_hu02cd030b7bf20cc5ba64c1aa1ea1c461_104264_cba51e0570a100700ac05b2b31379899.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/4_hu02cd030b7bf20cc5ba64c1aa1ea1c461_104264_b70fd030f78d638706de5220e811c912.webp&#34;
                width=&#34;760&#34;
                height=&#34;324&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -198,10 +198,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/5_hu03bf73f14ed470f6a2988d8ebe3ec766_119589_cfbcc8dedf05e38ebd2f83dd7435aa7c.webp 400w,
+               /project/external-course_stage_1/image/5_hu03bf73f14ed470f6a2988d8ebe3ec766_119589_04ee742f351563ac5a4f68754390f5ef.webp 400w,
                /project/external-course_stage_1/image/5_hu03bf73f14ed470f6a2988d8ebe3ec766_119589_e81a7729a459cdb99ae9d9648f82d65d.webp 760w,
                /project/external-course_stage_1/image/5_hu03bf73f14ed470f6a2988d8ebe3ec766_119589_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/5_hu03bf73f14ed470f6a2988d8ebe3ec766_119589_cfbcc8dedf05e38ebd2f83dd7435aa7c.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/5_hu03bf73f14ed470f6a2988d8ebe3ec766_119589_04ee742f351563ac5a4f68754390f5ef.webp&#34;
                width=&#34;760&#34;
                height=&#34;311&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -227,10 +227,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/6_hu1419c486fc22bdd0dbba11aa10bb7cd7_121670_69f970ba8cf91c46d47d323f72f24b89.webp 400w,
+               /project/external-course_stage_1/image/6_hu1419c486fc22bdd0dbba11aa10bb7cd7_121670_c6705d0f2bd34a183f87ff2ff42fcf31.webp 400w,
                /project/external-course_stage_1/image/6_hu1419c486fc22bdd0dbba11aa10bb7cd7_121670_9e9c2894802d15b2aa386fd6b1a209ab.webp 760w,
                /project/external-course_stage_1/image/6_hu1419c486fc22bdd0dbba11aa10bb7cd7_121670_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/6_hu1419c486fc22bdd0dbba11aa10bb7cd7_121670_69f970ba8cf91c46d47d323f72f24b89.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/6_hu1419c486fc22bdd0dbba11aa10bb7cd7_121670_c6705d0f2bd34a183f87ff2ff42fcf31.webp&#34;
                width=&#34;760&#34;
                height=&#34;317&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -256,10 +256,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/7_hu5d837b400f0f264d9804af33f730ca74_119960_e5ea6d1d2e37f39f257e62d2944ad00d.webp 400w,
+               /project/external-course_stage_1/image/7_hu5d837b400f0f264d9804af33f730ca74_119960_87f86595375a6981a773195dc4f14345.webp 400w,
                /project/external-course_stage_1/image/7_hu5d837b400f0f264d9804af33f730ca74_119960_cda1648ab932dcf6c4a3acaf61b2fce8.webp 760w,
                /project/external-course_stage_1/image/7_hu5d837b400f0f264d9804af33f730ca74_119960_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/7_hu5d837b400f0f264d9804af33f730ca74_119960_e5ea6d1d2e37f39f257e62d2944ad00d.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/7_hu5d837b400f0f264d9804af33f730ca74_119960_87f86595375a6981a773195dc4f14345.webp&#34;
                width=&#34;760&#34;
                height=&#34;301&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -285,10 +285,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/8_hu6f762b4002758cd2026a9703b75c0432_113790_dd1c783371fa9dea2a886a848435a21d.webp 400w,
+               /project/external-course_stage_1/image/8_hu6f762b4002758cd2026a9703b75c0432_113790_52ff5f3ca278cad49f8b2a307f2c4903.webp 400w,
                /project/external-course_stage_1/image/8_hu6f762b4002758cd2026a9703b75c0432_113790_e1b908658a9dc3109b9fbefaf31c34e0.webp 760w,
                /project/external-course_stage_1/image/8_hu6f762b4002758cd2026a9703b75c0432_113790_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/8_hu6f762b4002758cd2026a9703b75c0432_113790_dd1c783371fa9dea2a886a848435a21d.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/8_hu6f762b4002758cd2026a9703b75c0432_113790_52ff5f3ca278cad49f8b2a307f2c4903.webp&#34;
                width=&#34;760&#34;
                height=&#34;341&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -314,10 +314,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/9_hub9f7b72b11d7e4d85ab6768c00770a9e_147298_2818a75ca22f09d6d6f373a8be029fd2.webp 400w,
+               /project/external-course_stage_1/image/9_hub9f7b72b11d7e4d85ab6768c00770a9e_147298_d4f00e3f512251f1821806a0b45f49fe.webp 400w,
                /project/external-course_stage_1/image/9_hub9f7b72b11d7e4d85ab6768c00770a9e_147298_5f3a01cb82b1f56cd20aad0e828f1495.webp 760w,
                /project/external-course_stage_1/image/9_hub9f7b72b11d7e4d85ab6768c00770a9e_147298_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/9_hub9f7b72b11d7e4d85ab6768c00770a9e_147298_2818a75ca22f09d6d6f373a8be029fd2.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/9_hub9f7b72b11d7e4d85ab6768c00770a9e_147298_d4f00e3f512251f1821806a0b45f49fe.webp&#34;
                width=&#34;760&#34;
                height=&#34;348&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -344,10 +344,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/10_hud32556397a0d7a0ee0e9b5e1e5003975_139630_b431adc3e204efb28956d126111cc54e.webp 400w,
+               /project/external-course_stage_1/image/10_hud32556397a0d7a0ee0e9b5e1e5003975_139630_faf3caaec06de2c0470a21b7df4c1a35.webp 400w,
                /project/external-course_stage_1/image/10_hud32556397a0d7a0ee0e9b5e1e5003975_139630_9af58b504190ec95b4bbfd4822448c6e.webp 760w,
                /project/external-course_stage_1/image/10_hud32556397a0d7a0ee0e9b5e1e5003975_139630_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/10_hud32556397a0d7a0ee0e9b5e1e5003975_139630_b431adc3e204efb28956d126111cc54e.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/10_hud32556397a0d7a0ee0e9b5e1e5003975_139630_faf3caaec06de2c0470a21b7df4c1a35.webp&#34;
                width=&#34;760&#34;
                height=&#34;411&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -373,10 +373,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/11_hu831d08cfcd36ad326195b99ebc7bb2fa_135041_7551f95a1be4d8fc39f67aa6c392a2ea.webp 400w,
+               /project/external-course_stage_1/image/11_hu831d08cfcd36ad326195b99ebc7bb2fa_135041_d251b048c21c08b64cc78f744a4b3a5e.webp 400w,
                /project/external-course_stage_1/image/11_hu831d08cfcd36ad326195b99ebc7bb2fa_135041_534eb330d7ccaade2dff54b25989fcca.webp 760w,
                /project/external-course_stage_1/image/11_hu831d08cfcd36ad326195b99ebc7bb2fa_135041_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/11_hu831d08cfcd36ad326195b99ebc7bb2fa_135041_7551f95a1be4d8fc39f67aa6c392a2ea.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/11_hu831d08cfcd36ad326195b99ebc7bb2fa_135041_d251b048c21c08b64cc78f744a4b3a5e.webp&#34;
                width=&#34;760&#34;
                height=&#34;411&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -402,10 +402,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/12_hu57b1ccb29b57b1afe1dc09da577ec140_88393_79160ba569a40aa0c1b2f26019d7b1ac.webp 400w,
+               /project/external-course_stage_1/image/12_hu57b1ccb29b57b1afe1dc09da577ec140_88393_4436bf9143af948f92c7b86004cc8503.webp 400w,
                /project/external-course_stage_1/image/12_hu57b1ccb29b57b1afe1dc09da577ec140_88393_0421548d9b64f5276631e337abcfd5a3.webp 760w,
                /project/external-course_stage_1/image/12_hu57b1ccb29b57b1afe1dc09da577ec140_88393_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/12_hu57b1ccb29b57b1afe1dc09da577ec140_88393_79160ba569a40aa0c1b2f26019d7b1ac.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/12_hu57b1ccb29b57b1afe1dc09da577ec140_88393_4436bf9143af948f92c7b86004cc8503.webp&#34;
                width=&#34;760&#34;
                height=&#34;324&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -431,10 +431,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/13_hu133a6c67068c72971b4bb742f704787a_111039_25dc93b539bacb2ccb60855ed94c9303.webp 400w,
+               /project/external-course_stage_1/image/13_hu133a6c67068c72971b4bb742f704787a_111039_e7de365c77e8c08688f83cdb2a5148af.webp 400w,
                /project/external-course_stage_1/image/13_hu133a6c67068c72971b4bb742f704787a_111039_8902761bcd798533d6ef1183727d525c.webp 760w,
                /project/external-course_stage_1/image/13_hu133a6c67068c72971b4bb742f704787a_111039_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/13_hu133a6c67068c72971b4bb742f704787a_111039_25dc93b539bacb2ccb60855ed94c9303.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/13_hu133a6c67068c72971b4bb742f704787a_111039_e7de365c77e8c08688f83cdb2a5148af.webp&#34;
                width=&#34;760&#34;
                height=&#34;347&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -461,10 +461,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/14_hu94daafea2026fa3f3a14ad0ecd0e63d1_98531_14bbd341f57bc65cb79f13885e118cbe.webp 400w,
+               /project/external-course_stage_1/image/14_hu94daafea2026fa3f3a14ad0ecd0e63d1_98531_4951e63320c3c2bd0ac59b9d24aa8f11.webp 400w,
                /project/external-course_stage_1/image/14_hu94daafea2026fa3f3a14ad0ecd0e63d1_98531_420142664a83774ab0af17a383087c1e.webp 760w,
                /project/external-course_stage_1/image/14_hu94daafea2026fa3f3a14ad0ecd0e63d1_98531_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/14_hu94daafea2026fa3f3a14ad0ecd0e63d1_98531_14bbd341f57bc65cb79f13885e118cbe.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/14_hu94daafea2026fa3f3a14ad0ecd0e63d1_98531_4951e63320c3c2bd0ac59b9d24aa8f11.webp&#34;
                width=&#34;760&#34;
                height=&#34;328&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -490,10 +490,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/15_hu6b8a26a31566a60864368bb190b6ccf4_154761_120f66bfc4be19633c372487290b3525.webp 400w,
+               /project/external-course_stage_1/image/15_hu6b8a26a31566a60864368bb190b6ccf4_154761_b5c5dcc376da3707049ddc47555801d1.webp 400w,
                /project/external-course_stage_1/image/15_hu6b8a26a31566a60864368bb190b6ccf4_154761_26bfeabf969ff52861b9c3e7495964ea.webp 760w,
                /project/external-course_stage_1/image/15_hu6b8a26a31566a60864368bb190b6ccf4_154761_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/15_hu6b8a26a31566a60864368bb190b6ccf4_154761_120f66bfc4be19633c372487290b3525.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/15_hu6b8a26a31566a60864368bb190b6ccf4_154761_b5c5dcc376da3707049ddc47555801d1.webp&#34;
                width=&#34;760&#34;
                height=&#34;398&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -519,10 +519,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/16_hud82a6006a9a72aba9be68da8aa04991e_112679_466b5bc9fe51e28a3c89e17422752929.webp 400w,
+               /project/external-course_stage_1/image/16_hud82a6006a9a72aba9be68da8aa04991e_112679_bc66d0a146f1f3a5762e930f85f9f95b.webp 400w,
                /project/external-course_stage_1/image/16_hud82a6006a9a72aba9be68da8aa04991e_112679_90a939b328e66bf4e87f9afc1f4db8c4.webp 760w,
                /project/external-course_stage_1/image/16_hud82a6006a9a72aba9be68da8aa04991e_112679_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/16_hud82a6006a9a72aba9be68da8aa04991e_112679_466b5bc9fe51e28a3c89e17422752929.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/16_hud82a6006a9a72aba9be68da8aa04991e_112679_bc66d0a146f1f3a5762e930f85f9f95b.webp&#34;
                width=&#34;760&#34;
                height=&#34;314&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -548,10 +548,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/17_hu66963f8bfaf9b1f9658796cb8bd6a195_114187_0beeb0b02ea58269b1441576aaf53d65.webp 400w,
+               /project/external-course_stage_1/image/17_hu66963f8bfaf9b1f9658796cb8bd6a195_114187_fec088157d621532bb812b31195d9788.webp 400w,
                /project/external-course_stage_1/image/17_hu66963f8bfaf9b1f9658796cb8bd6a195_114187_62ca75811fc17e06a833b314a840fe85.webp 760w,
                /project/external-course_stage_1/image/17_hu66963f8bfaf9b1f9658796cb8bd6a195_114187_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/17_hu66963f8bfaf9b1f9658796cb8bd6a195_114187_0beeb0b02ea58269b1441576aaf53d65.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/17_hu66963f8bfaf9b1f9658796cb8bd6a195_114187_fec088157d621532bb812b31195d9788.webp&#34;
                width=&#34;760&#34;
                height=&#34;329&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -578,10 +578,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/18_hu71ec2c9afff90e873d429eb67fc2cacf_137817_e71018db18430d1e5fe3ea1ecd289fcb.webp 400w,
+               /project/external-course_stage_1/image/18_hu71ec2c9afff90e873d429eb67fc2cacf_137817_64d7c971cd68148395572905e70d9f93.webp 400w,
                /project/external-course_stage_1/image/18_hu71ec2c9afff90e873d429eb67fc2cacf_137817_a26489278e459a6129021c841b58fb9b.webp 760w,
                /project/external-course_stage_1/image/18_hu71ec2c9afff90e873d429eb67fc2cacf_137817_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/18_hu71ec2c9afff90e873d429eb67fc2cacf_137817_e71018db18430d1e5fe3ea1ecd289fcb.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/18_hu71ec2c9afff90e873d429eb67fc2cacf_137817_64d7c971cd68148395572905e70d9f93.webp&#34;
                width=&#34;760&#34;
                height=&#34;333&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -607,10 +607,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/19_hu80f805bc2bcb3186abe242b60d0d66f4_110425_318be723c7f18315567586a57f1e9dce.webp 400w,
+               /project/external-course_stage_1/image/19_hu80f805bc2bcb3186abe242b60d0d66f4_110425_2ef3b15b51d9ced10f3c1bcbcfe4e713.webp 400w,
                /project/external-course_stage_1/image/19_hu80f805bc2bcb3186abe242b60d0d66f4_110425_41c65b92ad92a41b78d104930f6bf017.webp 760w,
                /project/external-course_stage_1/image/19_hu80f805bc2bcb3186abe242b60d0d66f4_110425_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/19_hu80f805bc2bcb3186abe242b60d0d66f4_110425_318be723c7f18315567586a57f1e9dce.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/19_hu80f805bc2bcb3186abe242b60d0d66f4_110425_2ef3b15b51d9ced10f3c1bcbcfe4e713.webp&#34;
                width=&#34;760&#34;
                height=&#34;369&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -636,10 +636,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/20_hu9c8057d13d9f3861cfccc97f3ceefc61_110619_528e3a76725e2d8ed0a57c83261fc769.webp 400w,
+               /project/external-course_stage_1/image/20_hu9c8057d13d9f3861cfccc97f3ceefc61_110619_e07a7792b38c5225c1c538689b386e2d.webp 400w,
                /project/external-course_stage_1/image/20_hu9c8057d13d9f3861cfccc97f3ceefc61_110619_b76949a6dafe4b4c7a1077944cf1f718.webp 760w,
                /project/external-course_stage_1/image/20_hu9c8057d13d9f3861cfccc97f3ceefc61_110619_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/20_hu9c8057d13d9f3861cfccc97f3ceefc61_110619_528e3a76725e2d8ed0a57c83261fc769.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/20_hu9c8057d13d9f3861cfccc97f3ceefc61_110619_e07a7792b38c5225c1c538689b386e2d.webp&#34;
                width=&#34;760&#34;
                height=&#34;372&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -665,10 +665,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/21_hud9aca50848660bd410aa79ba1ce2a290_150504_0e52fda9130fb7b4eac584100c229c65.webp 400w,
+               /project/external-course_stage_1/image/21_hud9aca50848660bd410aa79ba1ce2a290_150504_40811f980e978f98e5b36c3ef846755d.webp 400w,
                /project/external-course_stage_1/image/21_hud9aca50848660bd410aa79ba1ce2a290_150504_dfb46d360265f58f25b164b54840565d.webp 760w,
                /project/external-course_stage_1/image/21_hud9aca50848660bd410aa79ba1ce2a290_150504_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/21_hud9aca50848660bd410aa79ba1ce2a290_150504_0e52fda9130fb7b4eac584100c229c65.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/21_hud9aca50848660bd410aa79ba1ce2a290_150504_40811f980e978f98e5b36c3ef846755d.webp&#34;
                width=&#34;760&#34;
                height=&#34;371&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -694,25 +694,25 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_1/image/22_hu919911ac1aecdd37d4ec0c39f8291af6_106156_1efac6fbf12e00ee268310d665413ccc.webp 400w,
+               /project/external-course_stage_1/image/22_hu919911ac1aecdd37d4ec0c39f8291af6_106156_4c4f777c86fe9a03e1783221ea8bcc80.webp 400w,
                /project/external-course_stage_1/image/22_hu919911ac1aecdd37d4ec0c39f8291af6_106156_1165d9990eef9a47de0d2b8e12318b92.webp 760w,
                /project/external-course_stage_1/image/22_hu919911ac1aecdd37d4ec0c39f8291af6_106156_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_1/image/22_hu919911ac1aecdd37d4ec0c39f8291af6_106156_1efac6fbf12e00ee268310d665413ccc.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_1/image/22_hu919911ac1aecdd37d4ec0c39f8291af6_106156_4c4f777c86fe9a03e1783221ea8bcc80.webp&#34;
                width=&#34;760&#34;
                height=&#34;339&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
   &lt;/div&gt;&lt;/figure&gt;
 &lt;/p&gt;
 &lt;h1 id=&#34;выводы&#34;&gt;Выводы&lt;/h1&gt;
-&lt;p&gt;Я прошла первый этап &amp;ldquo;Безопасность в сети&amp;rdquo; внешнего курса &amp;ldquo;Основы кибербезопасности&amp;rdquo; и изучила работу Интернета и базовых сетевых протоколов&lt;/p&gt;
+&lt;p&gt;Я прошла первый этап &amp;ldquo;Безопасность в сети&amp;rdquo; внешнего курса &amp;ldquo;Основы кибербезопасности&amp;rdquo; и изучила работу Интернета и базовых сетевых протоколов.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Внешний курс «‎Основы кибербезопасности»</title>
-      <link>http://localhost:1313/project/external-course_stage_2/</link>
+      <link>https://example.com/project/external-course_stage_2/</link>
       <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/external-course_stage_2/</guid>
+      <guid>https://example.com/project/external-course_stage_2/</guid>
       <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
 &lt;p&gt;Пройти второй этап &amp;ldquo;Защита ПК/телефона&amp;rdquo; внешнего курса &amp;ldquo;Основы кибербезопасности&amp;rdquo;&lt;/p&gt;
 &lt;h1 id=&#34;задание&#34;&gt;Задание&lt;/h1&gt;
@@ -759,10 +759,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/1_hub6e6dff42c315cd825fbbe44aa2fc80f_93218_675990c99449c025a525eca3ed2e7e2f.webp 400w,
+               /project/external-course_stage_2/image/1_hub6e6dff42c315cd825fbbe44aa2fc80f_93218_d4947db050da7063168cc26f3977bc1f.webp 400w,
                /project/external-course_stage_2/image/1_hub6e6dff42c315cd825fbbe44aa2fc80f_93218_3b6827f6356114fc47b38bfaac782b90.webp 760w,
                /project/external-course_stage_2/image/1_hub6e6dff42c315cd825fbbe44aa2fc80f_93218_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/1_hub6e6dff42c315cd825fbbe44aa2fc80f_93218_675990c99449c025a525eca3ed2e7e2f.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/1_hub6e6dff42c315cd825fbbe44aa2fc80f_93218_d4947db050da7063168cc26f3977bc1f.webp&#34;
                width=&#34;760&#34;
                height=&#34;333&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -788,10 +788,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/2_hu293adda23a1c8d070d13321357102e89_102887_7bd39317bfded6a377d3ea62f9ec4e95.webp 400w,
+               /project/external-course_stage_2/image/2_hu293adda23a1c8d070d13321357102e89_102887_2db4ae61aaafcb1637f1bcfe7c7bb92d.webp 400w,
                /project/external-course_stage_2/image/2_hu293adda23a1c8d070d13321357102e89_102887_d0b1231c03b940f2e6d1f75a011d1545.webp 760w,
                /project/external-course_stage_2/image/2_hu293adda23a1c8d070d13321357102e89_102887_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/2_hu293adda23a1c8d070d13321357102e89_102887_7bd39317bfded6a377d3ea62f9ec4e95.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/2_hu293adda23a1c8d070d13321357102e89_102887_2db4ae61aaafcb1637f1bcfe7c7bb92d.webp&#34;
                width=&#34;760&#34;
                height=&#34;366&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -817,10 +817,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/3_hu38a3dddc0947ec104e196e4f08b5229c_152762_5aff59fed4718e029e69f3356820bb01.webp 400w,
+               /project/external-course_stage_2/image/3_hu38a3dddc0947ec104e196e4f08b5229c_152762_fd3049faf363d1603ddebb174d7ae650.webp 400w,
                /project/external-course_stage_2/image/3_hu38a3dddc0947ec104e196e4f08b5229c_152762_d23445715871fb88d128d58488d19796.webp 760w,
                /project/external-course_stage_2/image/3_hu38a3dddc0947ec104e196e4f08b5229c_152762_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/3_hu38a3dddc0947ec104e196e4f08b5229c_152762_5aff59fed4718e029e69f3356820bb01.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/3_hu38a3dddc0947ec104e196e4f08b5229c_152762_fd3049faf363d1603ddebb174d7ae650.webp&#34;
                width=&#34;760&#34;
                height=&#34;415&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -847,10 +847,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/4_hu011326cf7cd48442c72b31f4582983d7_108986_022433746947c332e78431825329b97d.webp 400w,
+               /project/external-course_stage_2/image/4_hu011326cf7cd48442c72b31f4582983d7_108986_8369aa1ab778f5e992526475420dc4a9.webp 400w,
                /project/external-course_stage_2/image/4_hu011326cf7cd48442c72b31f4582983d7_108986_90c51060087d76f7aaf92498cd77c7fe.webp 760w,
                /project/external-course_stage_2/image/4_hu011326cf7cd48442c72b31f4582983d7_108986_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/4_hu011326cf7cd48442c72b31f4582983d7_108986_022433746947c332e78431825329b97d.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/4_hu011326cf7cd48442c72b31f4582983d7_108986_8369aa1ab778f5e992526475420dc4a9.webp&#34;
                width=&#34;760&#34;
                height=&#34;367&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -876,10 +876,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/5_hu5d339631972f00e496f956f47bebdc23_124081_07237dba95082c179275d15a384fd6c6.webp 400w,
+               /project/external-course_stage_2/image/5_hu5d339631972f00e496f956f47bebdc23_124081_12f56ee0046bdea971c568775d0a8fe0.webp 400w,
                /project/external-course_stage_2/image/5_hu5d339631972f00e496f956f47bebdc23_124081_bb6b7674371c6e7696982de8b1d094a6.webp 760w,
                /project/external-course_stage_2/image/5_hu5d339631972f00e496f956f47bebdc23_124081_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/5_hu5d339631972f00e496f956f47bebdc23_124081_07237dba95082c179275d15a384fd6c6.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/5_hu5d339631972f00e496f956f47bebdc23_124081_12f56ee0046bdea971c568775d0a8fe0.webp&#34;
                width=&#34;760&#34;
                height=&#34;402&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -905,10 +905,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/6_hudde58300e2d58a9655a1e6425608aa8a_127307_263116790263a461f5b56fdc253ed708.webp 400w,
+               /project/external-course_stage_2/image/6_hudde58300e2d58a9655a1e6425608aa8a_127307_9ba3705177c7eb9bda6a96c77c90a51e.webp 400w,
                /project/external-course_stage_2/image/6_hudde58300e2d58a9655a1e6425608aa8a_127307_536c635963203cafa322937c2f040183.webp 760w,
                /project/external-course_stage_2/image/6_hudde58300e2d58a9655a1e6425608aa8a_127307_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/6_hudde58300e2d58a9655a1e6425608aa8a_127307_263116790263a461f5b56fdc253ed708.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/6_hudde58300e2d58a9655a1e6425608aa8a_127307_9ba3705177c7eb9bda6a96c77c90a51e.webp&#34;
                width=&#34;760&#34;
                height=&#34;368&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -934,10 +934,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/7_hudc3307649f290b55f24479b5184c4cfd_136576_905c01c70e28ddb2f50a97d7ac1dd0bd.webp 400w,
+               /project/external-course_stage_2/image/7_hudc3307649f290b55f24479b5184c4cfd_136576_ccc6118a19edd3c5041404e6c121a967.webp 400w,
                /project/external-course_stage_2/image/7_hudc3307649f290b55f24479b5184c4cfd_136576_615c28a395717bb85fa93cc57afdbb28.webp 760w,
                /project/external-course_stage_2/image/7_hudc3307649f290b55f24479b5184c4cfd_136576_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/7_hudc3307649f290b55f24479b5184c4cfd_136576_905c01c70e28ddb2f50a97d7ac1dd0bd.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/7_hudc3307649f290b55f24479b5184c4cfd_136576_ccc6118a19edd3c5041404e6c121a967.webp&#34;
                width=&#34;760&#34;
                height=&#34;376&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -963,10 +963,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/8_hu0347bb9a6546f1e489e5b5caf78ef322_95076_22c2779630499040166d16582d16616e.webp 400w,
+               /project/external-course_stage_2/image/8_hu0347bb9a6546f1e489e5b5caf78ef322_95076_9f840e457cf1c3a0ff1daae016027717.webp 400w,
                /project/external-course_stage_2/image/8_hu0347bb9a6546f1e489e5b5caf78ef322_95076_bd11e6241a210866b038d46bef192c3d.webp 760w,
                /project/external-course_stage_2/image/8_hu0347bb9a6546f1e489e5b5caf78ef322_95076_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/8_hu0347bb9a6546f1e489e5b5caf78ef322_95076_22c2779630499040166d16582d16616e.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/8_hu0347bb9a6546f1e489e5b5caf78ef322_95076_9f840e457cf1c3a0ff1daae016027717.webp&#34;
                width=&#34;760&#34;
                height=&#34;316&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -996,10 +996,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/9_hu8e65173f64b613e345a215fc7f85d88b_154657_9029cba3bda78b0fee59c3cbe346e51c.webp 400w,
+               /project/external-course_stage_2/image/9_hu8e65173f64b613e345a215fc7f85d88b_154657_91d6be59c9d24347d9a67634bf5521df.webp 400w,
                /project/external-course_stage_2/image/9_hu8e65173f64b613e345a215fc7f85d88b_154657_d3e2889d1400d11f940aaf4a772e87f0.webp 760w,
                /project/external-course_stage_2/image/9_hu8e65173f64b613e345a215fc7f85d88b_154657_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/9_hu8e65173f64b613e345a215fc7f85d88b_154657_9029cba3bda78b0fee59c3cbe346e51c.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/9_hu8e65173f64b613e345a215fc7f85d88b_154657_91d6be59c9d24347d9a67634bf5521df.webp&#34;
                width=&#34;760&#34;
                height=&#34;418&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1026,10 +1026,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/10_hu89c7c4b2e0f0d96c3ca9ce664ccd7d1b_206368_2f834c9e3a636fc3a0486987065642e4.webp 400w,
+               /project/external-course_stage_2/image/10_hu89c7c4b2e0f0d96c3ca9ce664ccd7d1b_206368_3ff1809c43bd31b3f179ccc7a86c2867.webp 400w,
                /project/external-course_stage_2/image/10_hu89c7c4b2e0f0d96c3ca9ce664ccd7d1b_206368_2778687b88ea11cc9b7348bc52d9ab21.webp 760w,
                /project/external-course_stage_2/image/10_hu89c7c4b2e0f0d96c3ca9ce664ccd7d1b_206368_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/10_hu89c7c4b2e0f0d96c3ca9ce664ccd7d1b_206368_2f834c9e3a636fc3a0486987065642e4.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/10_hu89c7c4b2e0f0d96c3ca9ce664ccd7d1b_206368_3ff1809c43bd31b3f179ccc7a86c2867.webp&#34;
                width=&#34;760&#34;
                height=&#34;404&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1055,10 +1055,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/11_hua9b1b11923057cc45e1f6514344427b1_89360_63cfb3c92a286984e815bda559c6e9b1.webp 400w,
+               /project/external-course_stage_2/image/11_hua9b1b11923057cc45e1f6514344427b1_89360_57fdc8e7788338871eb5cb0a0efb7b11.webp 400w,
                /project/external-course_stage_2/image/11_hua9b1b11923057cc45e1f6514344427b1_89360_5ab7505158ed2d69ebc028ab48e6c797.webp 760w,
                /project/external-course_stage_2/image/11_hua9b1b11923057cc45e1f6514344427b1_89360_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/11_hua9b1b11923057cc45e1f6514344427b1_89360_63cfb3c92a286984e815bda559c6e9b1.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/11_hua9b1b11923057cc45e1f6514344427b1_89360_57fdc8e7788338871eb5cb0a0efb7b11.webp&#34;
                width=&#34;760&#34;
                height=&#34;334&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1085,10 +1085,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/12_hu5d56368d28032998f5bb8674e1b6b48f_119328_4af59a7e3d241fb2ac533d749ecd939f.webp 400w,
+               /project/external-course_stage_2/image/12_hu5d56368d28032998f5bb8674e1b6b48f_119328_3ef47439eac10a950417c1fb49c9b80f.webp 400w,
                /project/external-course_stage_2/image/12_hu5d56368d28032998f5bb8674e1b6b48f_119328_97418656a45cd03defe68df012ffb171.webp 760w,
                /project/external-course_stage_2/image/12_hu5d56368d28032998f5bb8674e1b6b48f_119328_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/12_hu5d56368d28032998f5bb8674e1b6b48f_119328_4af59a7e3d241fb2ac533d749ecd939f.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/12_hu5d56368d28032998f5bb8674e1b6b48f_119328_3ef47439eac10a950417c1fb49c9b80f.webp&#34;
                width=&#34;760&#34;
                height=&#34;355&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1114,10 +1114,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/13_hud56e4d873cd457fcaf8b8c471d42738a_126326_2850efbbf8eca537a4be52da7d97f74e.webp 400w,
+               /project/external-course_stage_2/image/13_hud56e4d873cd457fcaf8b8c471d42738a_126326_639dcfd08ba570cf73859cbab5e4b6c9.webp 400w,
                /project/external-course_stage_2/image/13_hud56e4d873cd457fcaf8b8c471d42738a_126326_e35d01b9e35e1d1993a8dd258c53b909.webp 760w,
                /project/external-course_stage_2/image/13_hud56e4d873cd457fcaf8b8c471d42738a_126326_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/13_hud56e4d873cd457fcaf8b8c471d42738a_126326_2850efbbf8eca537a4be52da7d97f74e.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/13_hud56e4d873cd457fcaf8b8c471d42738a_126326_639dcfd08ba570cf73859cbab5e4b6c9.webp&#34;
                width=&#34;760&#34;
                height=&#34;377&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1144,10 +1144,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/14_hu903c54c00aafd9ddde3a00574760f7c9_132152_28a6fb6245490bbb3d21f21086a28a23.webp 400w,
+               /project/external-course_stage_2/image/14_hu903c54c00aafd9ddde3a00574760f7c9_132152_6ce26bc3d06f05d3df2d9cd896d94703.webp 400w,
                /project/external-course_stage_2/image/14_hu903c54c00aafd9ddde3a00574760f7c9_132152_112137efc90d21eb9375d0c6cb8d15f4.webp 760w,
                /project/external-course_stage_2/image/14_hu903c54c00aafd9ddde3a00574760f7c9_132152_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/14_hu903c54c00aafd9ddde3a00574760f7c9_132152_28a6fb6245490bbb3d21f21086a28a23.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/14_hu903c54c00aafd9ddde3a00574760f7c9_132152_6ce26bc3d06f05d3df2d9cd896d94703.webp&#34;
                width=&#34;760&#34;
                height=&#34;364&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1173,10 +1173,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_2/image/15_hudba1f98186327bb3ce8daf978ff2c95b_162518_fcabbff49c9ec65fc9c6298b80e4c229.webp 400w,
+               /project/external-course_stage_2/image/15_hudba1f98186327bb3ce8daf978ff2c95b_162518_c6cd08eb999b523f5e8a6526e49687bc.webp 400w,
                /project/external-course_stage_2/image/15_hudba1f98186327bb3ce8daf978ff2c95b_162518_9bb2280865520c1396b3fda19bf55715.webp 760w,
                /project/external-course_stage_2/image/15_hudba1f98186327bb3ce8daf978ff2c95b_162518_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_2/image/15_hudba1f98186327bb3ce8daf978ff2c95b_162518_fcabbff49c9ec65fc9c6298b80e4c229.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_2/image/15_hudba1f98186327bb3ce8daf978ff2c95b_162518_c6cd08eb999b523f5e8a6526e49687bc.webp&#34;
                width=&#34;760&#34;
                height=&#34;365&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1189,9 +1189,9 @@
     
     <item>
       <title>Внешний курс «‎Основы кибербезопасности»</title>
-      <link>http://localhost:1313/project/external-course_stage_3/</link>
+      <link>https://example.com/project/external-course_stage_3/</link>
       <pubDate>Sat, 10 May 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/external-course_stage_3/</guid>
+      <guid>https://example.com/project/external-course_stage_3/</guid>
       <description>&lt;h1 id=&#34;цель-работы&#34;&gt;Цель работы&lt;/h1&gt;
 &lt;p&gt;Пройти третий этап &amp;ldquo;Криптография на практике&amp;rdquo; внешнего курса &amp;ldquo;Основы кибербезопасности&amp;rdquo;&lt;/p&gt;
 &lt;h1 id=&#34;задание&#34;&gt;Задание&lt;/h1&gt;
@@ -1233,10 +1233,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/1_hufb2aad0ad8f28f35c54df52d3b732368_147907_2af4b439c94ae34548baf638cb61d1a2.webp 400w,
+               /project/external-course_stage_3/image/1_hufb2aad0ad8f28f35c54df52d3b732368_147907_300bc0c1076784815b8e6ec12ef895a1.webp 400w,
                /project/external-course_stage_3/image/1_hufb2aad0ad8f28f35c54df52d3b732368_147907_6e133ad656d444cf360f022f9fd28bef.webp 760w,
                /project/external-course_stage_3/image/1_hufb2aad0ad8f28f35c54df52d3b732368_147907_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/1_hufb2aad0ad8f28f35c54df52d3b732368_147907_2af4b439c94ae34548baf638cb61d1a2.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/1_hufb2aad0ad8f28f35c54df52d3b732368_147907_300bc0c1076784815b8e6ec12ef895a1.webp&#34;
                width=&#34;760&#34;
                height=&#34;367&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1262,10 +1262,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/2_hub8724891df9748b4abba382fac5c3e1f_173545_38a8f4e89271a959dafc9484f3326251.webp 400w,
+               /project/external-course_stage_3/image/2_hub8724891df9748b4abba382fac5c3e1f_173545_db39e9b27574dc4b35f8fa942f8376c5.webp 400w,
                /project/external-course_stage_3/image/2_hub8724891df9748b4abba382fac5c3e1f_173545_3e020607862859bfd7e3e8e80240d8bb.webp 760w,
                /project/external-course_stage_3/image/2_hub8724891df9748b4abba382fac5c3e1f_173545_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/2_hub8724891df9748b4abba382fac5c3e1f_173545_38a8f4e89271a959dafc9484f3326251.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/2_hub8724891df9748b4abba382fac5c3e1f_173545_db39e9b27574dc4b35f8fa942f8376c5.webp&#34;
                width=&#34;760&#34;
                height=&#34;424&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1291,10 +1291,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/3_hu3cc9e636a0fca5028e51cfa838dc2e14_147160_dba33e37c260de77b9170585fb866397.webp 400w,
+               /project/external-course_stage_3/image/3_hu3cc9e636a0fca5028e51cfa838dc2e14_147160_737485e6034f9b327637a79d3357c491.webp 400w,
                /project/external-course_stage_3/image/3_hu3cc9e636a0fca5028e51cfa838dc2e14_147160_1f364528cf7cef9ad982efa28dbc4828.webp 760w,
                /project/external-course_stage_3/image/3_hu3cc9e636a0fca5028e51cfa838dc2e14_147160_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/3_hu3cc9e636a0fca5028e51cfa838dc2e14_147160_dba33e37c260de77b9170585fb866397.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/3_hu3cc9e636a0fca5028e51cfa838dc2e14_147160_737485e6034f9b327637a79d3357c491.webp&#34;
                width=&#34;760&#34;
                height=&#34;459&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1320,10 +1320,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/4_hu2da1d6677c55e14c861d3728581fb5ae_100537_873c4385469dcde6485748d055d2c9c3.webp 400w,
+               /project/external-course_stage_3/image/4_hu2da1d6677c55e14c861d3728581fb5ae_100537_8c6eee02e8a237f2cc6ce26c279f8bf8.webp 400w,
                /project/external-course_stage_3/image/4_hu2da1d6677c55e14c861d3728581fb5ae_100537_8122acd7e2cb312597089efb62ea5488.webp 760w,
                /project/external-course_stage_3/image/4_hu2da1d6677c55e14c861d3728581fb5ae_100537_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/4_hu2da1d6677c55e14c861d3728581fb5ae_100537_873c4385469dcde6485748d055d2c9c3.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/4_hu2da1d6677c55e14c861d3728581fb5ae_100537_8c6eee02e8a237f2cc6ce26c279f8bf8.webp&#34;
                width=&#34;760&#34;
                height=&#34;327&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1349,10 +1349,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/5_hu22782d905d192bda2537d99b05bad3b6_137658_1dcb45ecbbfd3e44577491c5cb3dfd1e.webp 400w,
+               /project/external-course_stage_3/image/5_hu22782d905d192bda2537d99b05bad3b6_137658_18aa9820beca071cb0ed59f35e714a85.webp 400w,
                /project/external-course_stage_3/image/5_hu22782d905d192bda2537d99b05bad3b6_137658_a2a4d9d2d0ae57515bfb4702347071a7.webp 760w,
                /project/external-course_stage_3/image/5_hu22782d905d192bda2537d99b05bad3b6_137658_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/5_hu22782d905d192bda2537d99b05bad3b6_137658_1dcb45ecbbfd3e44577491c5cb3dfd1e.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/5_hu22782d905d192bda2537d99b05bad3b6_137658_18aa9820beca071cb0ed59f35e714a85.webp&#34;
                width=&#34;760&#34;
                height=&#34;372&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1379,10 +1379,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/6_hub174ebe57888cd44dc09f9e7fa1b378b_110038_02d42b3e0a861236742d673dcad0adfa.webp 400w,
+               /project/external-course_stage_3/image/6_hub174ebe57888cd44dc09f9e7fa1b378b_110038_575b27dbeaa46a85727b31894c707066.webp 400w,
                /project/external-course_stage_3/image/6_hub174ebe57888cd44dc09f9e7fa1b378b_110038_bed397ea3930c665ea2cf02037f20858.webp 760w,
                /project/external-course_stage_3/image/6_hub174ebe57888cd44dc09f9e7fa1b378b_110038_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/6_hub174ebe57888cd44dc09f9e7fa1b378b_110038_02d42b3e0a861236742d673dcad0adfa.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/6_hub174ebe57888cd44dc09f9e7fa1b378b_110038_575b27dbeaa46a85727b31894c707066.webp&#34;
                width=&#34;760&#34;
                height=&#34;339&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1408,10 +1408,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/7_hue53ad5e9193f4cfb9acf17927233728c_129295_53a7a16d5ee230a6522aa271d0090a7f.webp 400w,
+               /project/external-course_stage_3/image/7_hue53ad5e9193f4cfb9acf17927233728c_129295_3fd407d6edf233874082b2004ce38beb.webp 400w,
                /project/external-course_stage_3/image/7_hue53ad5e9193f4cfb9acf17927233728c_129295_750ef1290a05d0fb268c0f7c384753cf.webp 760w,
                /project/external-course_stage_3/image/7_hue53ad5e9193f4cfb9acf17927233728c_129295_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/7_hue53ad5e9193f4cfb9acf17927233728c_129295_53a7a16d5ee230a6522aa271d0090a7f.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/7_hue53ad5e9193f4cfb9acf17927233728c_129295_3fd407d6edf233874082b2004ce38beb.webp&#34;
                width=&#34;760&#34;
                height=&#34;367&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1437,10 +1437,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/8_hue53ad5e9193f4cfb9acf17927233728c_112256_09e812e2b666a0d2c39f1b5f9f4c67dd.webp 400w,
+               /project/external-course_stage_3/image/8_hue53ad5e9193f4cfb9acf17927233728c_112256_f40a3f325a47e1c3cd3eb1ccaedef965.webp 400w,
                /project/external-course_stage_3/image/8_hue53ad5e9193f4cfb9acf17927233728c_112256_3dd33fb1a32c753c42f4fa53881c1c3a.webp 760w,
                /project/external-course_stage_3/image/8_hue53ad5e9193f4cfb9acf17927233728c_112256_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/8_hue53ad5e9193f4cfb9acf17927233728c_112256_09e812e2b666a0d2c39f1b5f9f4c67dd.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/8_hue53ad5e9193f4cfb9acf17927233728c_112256_f40a3f325a47e1c3cd3eb1ccaedef965.webp&#34;
                width=&#34;760&#34;
                height=&#34;367&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1466,10 +1466,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/9_hu9170a1002abb25b14e95432dbfdf849c_121330_eb01940cf742760f3df06e3f28b78f14.webp 400w,
+               /project/external-course_stage_3/image/9_hu9170a1002abb25b14e95432dbfdf849c_121330_62130cfcab69cff1bb3442cd5e7a448b.webp 400w,
                /project/external-course_stage_3/image/9_hu9170a1002abb25b14e95432dbfdf849c_121330_cc6fb03a9a4d20dfcb1853db3e78980d.webp 760w,
                /project/external-course_stage_3/image/9_hu9170a1002abb25b14e95432dbfdf849c_121330_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/9_hu9170a1002abb25b14e95432dbfdf849c_121330_eb01940cf742760f3df06e3f28b78f14.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/9_hu9170a1002abb25b14e95432dbfdf849c_121330_62130cfcab69cff1bb3442cd5e7a448b.webp&#34;
                width=&#34;760&#34;
                height=&#34;341&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1495,10 +1495,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/10_hu06385be1f21ad5417dfd77bf816668b2_147508_f67fd684480cb23ede98b39acedbcb22.webp 400w,
+               /project/external-course_stage_3/image/10_hu06385be1f21ad5417dfd77bf816668b2_147508_28c8557cffdee714b492adbf24f6ec6a.webp 400w,
                /project/external-course_stage_3/image/10_hu06385be1f21ad5417dfd77bf816668b2_147508_1de83e255961fb6f29a1ea7ad5c3e320.webp 760w,
                /project/external-course_stage_3/image/10_hu06385be1f21ad5417dfd77bf816668b2_147508_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/10_hu06385be1f21ad5417dfd77bf816668b2_147508_f67fd684480cb23ede98b39acedbcb22.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/10_hu06385be1f21ad5417dfd77bf816668b2_147508_28c8557cffdee714b492adbf24f6ec6a.webp&#34;
                width=&#34;760&#34;
                height=&#34;365&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1525,10 +1525,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/11_hu5171826d6e8a85eae296c5341f110537_152889_8abceb58b2d963e450e5dd81bb0927ef.webp 400w,
+               /project/external-course_stage_3/image/11_hu5171826d6e8a85eae296c5341f110537_152889_7b449002e1d68c75c73032d008d333ec.webp 400w,
                /project/external-course_stage_3/image/11_hu5171826d6e8a85eae296c5341f110537_152889_3984440150c60c51d071faeb00ed14dc.webp 760w,
                /project/external-course_stage_3/image/11_hu5171826d6e8a85eae296c5341f110537_152889_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/11_hu5171826d6e8a85eae296c5341f110537_152889_8abceb58b2d963e450e5dd81bb0927ef.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/11_hu5171826d6e8a85eae296c5341f110537_152889_7b449002e1d68c75c73032d008d333ec.webp&#34;
                width=&#34;760&#34;
                height=&#34;448&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1554,10 +1554,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/12_hu5520e789bab1f49760a97a2031e1d62d_177461_f48cffb41c1533dcbac6349401bc2f2b.webp 400w,
+               /project/external-course_stage_3/image/12_hu5520e789bab1f49760a97a2031e1d62d_177461_e0861b173ebce5085fcf1b51a507fd57.webp 400w,
                /project/external-course_stage_3/image/12_hu5520e789bab1f49760a97a2031e1d62d_177461_26c69388008c0cf6c10f4d9dab05aa85.webp 760w,
                /project/external-course_stage_3/image/12_hu5520e789bab1f49760a97a2031e1d62d_177461_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/12_hu5520e789bab1f49760a97a2031e1d62d_177461_f48cffb41c1533dcbac6349401bc2f2b.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/12_hu5520e789bab1f49760a97a2031e1d62d_177461_e0861b173ebce5085fcf1b51a507fd57.webp&#34;
                width=&#34;760&#34;
                height=&#34;412&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1583,10 +1583,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/13_hua80b5fde907e7f8e4ffed8d119f82bde_157608_7f78a1efbabed343afe1c6f9dbeec393.webp 400w,
+               /project/external-course_stage_3/image/13_hua80b5fde907e7f8e4ffed8d119f82bde_157608_053ee510ca5b36f5f2802707a92d0df5.webp 400w,
                /project/external-course_stage_3/image/13_hua80b5fde907e7f8e4ffed8d119f82bde_157608_f9c4af5e7461597c0797727dcb90266d.webp 760w,
                /project/external-course_stage_3/image/13_hua80b5fde907e7f8e4ffed8d119f82bde_157608_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/13_hua80b5fde907e7f8e4ffed8d119f82bde_157608_7f78a1efbabed343afe1c6f9dbeec393.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/13_hua80b5fde907e7f8e4ffed8d119f82bde_157608_053ee510ca5b36f5f2802707a92d0df5.webp&#34;
                width=&#34;760&#34;
                height=&#34;386&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1613,10 +1613,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/14_hu16589c2f7d58996d098e85463db4f3e4_132429_ea6e69e0617042925951cd901110a4b6.webp 400w,
+               /project/external-course_stage_3/image/14_hu16589c2f7d58996d098e85463db4f3e4_132429_1a01392f0d858b1749adf47e210092f5.webp 400w,
                /project/external-course_stage_3/image/14_hu16589c2f7d58996d098e85463db4f3e4_132429_7059ec1cbca115ea8b2274206acca7af.webp 760w,
                /project/external-course_stage_3/image/14_hu16589c2f7d58996d098e85463db4f3e4_132429_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/14_hu16589c2f7d58996d098e85463db4f3e4_132429_ea6e69e0617042925951cd901110a4b6.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/14_hu16589c2f7d58996d098e85463db4f3e4_132429_1a01392f0d858b1749adf47e210092f5.webp&#34;
                width=&#34;760&#34;
                height=&#34;371&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1653,10 +1653,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/15_hueb8d98526db01b04386eeb3cc15d47de_151432_ef53dc446853767e62f64372b7580286.webp 400w,
+               /project/external-course_stage_3/image/15_hueb8d98526db01b04386eeb3cc15d47de_151432_0823e646255dad82123932cc766db81f.webp 400w,
                /project/external-course_stage_3/image/15_hueb8d98526db01b04386eeb3cc15d47de_151432_e6d39103b56769a91af51e5630cc5723.webp 760w,
                /project/external-course_stage_3/image/15_hueb8d98526db01b04386eeb3cc15d47de_151432_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/15_hueb8d98526db01b04386eeb3cc15d47de_151432_ef53dc446853767e62f64372b7580286.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/15_hueb8d98526db01b04386eeb3cc15d47de_151432_0823e646255dad82123932cc766db81f.webp&#34;
                width=&#34;760&#34;
                height=&#34;416&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1682,10 +1682,10 @@
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /project/external-course_stage_3/image/16_huc2f9a527d53f564cf287a47126460e5e_112962_5eff6de50c01a5ca9fec35f32f4df196.webp 400w,
+               /project/external-course_stage_3/image/16_huc2f9a527d53f564cf287a47126460e5e_112962_755054adc535647b70949684299a6445.webp 400w,
                /project/external-course_stage_3/image/16_huc2f9a527d53f564cf287a47126460e5e_112962_5f32495882c185d2ba5aa2bbccccbd37.webp 760w,
                /project/external-course_stage_3/image/16_huc2f9a527d53f564cf287a47126460e5e_112962_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/project/external-course_stage_3/image/16_huc2f9a527d53f564cf287a47126460e5e_112962_5eff6de50c01a5ca9fec35f32f4df196.webp&#34;
+               src=&#34;https://example.com/project/external-course_stage_3/image/16_huc2f9a527d53f564cf287a47126460e5e_112962_755054adc535647b70949684299a6445.webp&#34;
                width=&#34;760&#34;
                height=&#34;383&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1698,9 +1698,9 @@
     
     <item>
       <title>Last week</title>
-      <link>http://localhost:1313/post/myweek/</link>
+      <link>https://example.com/post/myweek/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/myweek/</guid>
+      <guid>https://example.com/post/myweek/</guid>
       <description>&lt;h3 id=&#34;laboratory-work&#34;&gt;Laboratory work&lt;/h3&gt;
 &lt;p&gt;I spent most of the weekend doing lab work.
 It was long, but interesting.&lt;br&gt;
@@ -1727,10 +1727,10 @@ It was short, but interesting&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /post/myweek/1_huc34626c204486675fe8a1d8dd5c57405_99438_614a9ee73a45c6d7c5d715fbce6fc132.webp 400w,
+               /post/myweek/1_huc34626c204486675fe8a1d8dd5c57405_99438_42b65c91a5118ffb537e18ca0a58fe74.webp 400w,
                /post/myweek/1_huc34626c204486675fe8a1d8dd5c57405_99438_60473e7c5eb5f32dbd3aeeef7303b2d1.webp 760w,
                /post/myweek/1_huc34626c204486675fe8a1d8dd5c57405_99438_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/myweek/1_huc34626c204486675fe8a1d8dd5c57405_99438_614a9ee73a45c6d7c5d715fbce6fc132.webp&#34;
+               src=&#34;https://example.com/post/myweek/1_huc34626c204486675fe8a1d8dd5c57405_99438_42b65c91a5118ffb537e18ca0a58fe74.webp&#34;
                width=&#34;760&#34;
                height=&#34;623&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1741,9 +1741,9 @@ It was short, but interesting&lt;/p&gt;
     
     <item>
       <title>Understanding Markdown</title>
-      <link>http://localhost:1313/post/md/</link>
+      <link>https://example.com/post/md/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/md/</guid>
+      <guid>https://example.com/post/md/</guid>
       <description>&lt;h3 id=&#34;intro&#34;&gt;Intro&lt;/h3&gt;
 &lt;p&gt;Markdown is a lightweight markup language that allows you to format text easily and efficiently. Let&amp;rsquo;s explore the essence of Markdown and how it can revolutionize your blogging experience.&lt;/p&gt;
 &lt;h3 id=&#34;what-is-markdown&#34;&gt;What is Markdown?&lt;/h3&gt;
@@ -1785,10 +1785,10 @@ It was short, but interesting&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /post/md/1_huf5b9f27575b4834ba9b09830f000979d_73698_aec44015efde3c92547162411e38d7ef.webp 400w,
+               /post/md/1_huf5b9f27575b4834ba9b09830f000979d_73698_eec1f03145323ecfe950b6ea879f9a2f.webp 400w,
                /post/md/1_huf5b9f27575b4834ba9b09830f000979d_73698_1651e63459149699fc9c6cabf4ce0953.webp 760w,
                /post/md/1_huf5b9f27575b4834ba9b09830f000979d_73698_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/md/1_huf5b9f27575b4834ba9b09830f000979d_73698_aec44015efde3c92547162411e38d7ef.webp&#34;
+               src=&#34;https://example.com/post/md/1_huf5b9f27575b4834ba9b09830f000979d_73698_eec1f03145323ecfe950b6ea879f9a2f.webp&#34;
                width=&#34;760&#34;
                height=&#34;545&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1799,9 +1799,9 @@ It was short, but interesting&lt;/p&gt;
     
     <item>
       <title>Git version control</title>
-      <link>http://localhost:1313/post/git/</link>
+      <link>https://example.com/post/git/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/git/</guid>
+      <guid>https://example.com/post/git/</guid>
       <description>&lt;p&gt;Git is a console utility for tracking and maintaining a history of file changes in a project. It allows you to roll back a project to previous versions, compare, analyze and merge changes into a repository. A repository is a repository of code and its change history that is stored locally on your hard disk or on the Internet&lt;/p&gt;
 &lt;h2 id=&#34;basic-git-commands&#34;&gt;Basic Git commands:&lt;/h2&gt;
 &lt;ol&gt;
@@ -1835,10 +1835,10 @@ For a more in-depth look at Git, check out the official Git SCM documentation.&l
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /post/git/1_hu4a7bff5372e2d2eae41fd9b48d257ebf_193003_f08cd489febc883d185f3e0696d3a6d5.webp 400w,
+               /post/git/1_hu4a7bff5372e2d2eae41fd9b48d257ebf_193003_b81b02b7bbda1e0d73a5166ec5cfd42e.webp 400w,
                /post/git/1_hu4a7bff5372e2d2eae41fd9b48d257ebf_193003_4c65e146cf89824302b982c575cf4ea1.webp 760w,
                /post/git/1_hu4a7bff5372e2d2eae41fd9b48d257ebf_193003_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/git/1_hu4a7bff5372e2d2eae41fd9b48d257ebf_193003_f08cd489febc883d185f3e0696d3a6d5.webp&#34;
+               src=&#34;https://example.com/post/git/1_hu4a7bff5372e2d2eae41fd9b48d257ebf_193003_b81b02b7bbda1e0d73a5166ec5cfd42e.webp&#34;
                width=&#34;666&#34;
                height=&#34;358&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1849,9 +1849,9 @@ For a more in-depth look at Git, check out the official Git SCM documentation.&l
     
     <item>
       <title>How did I spend my week?</title>
-      <link>http://localhost:1313/post/myday/</link>
+      <link>https://example.com/post/myday/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/myday/</guid>
+      <guid>https://example.com/post/myday/</guid>
       <description>&lt;h3 id=&#34;laboratory-work&#34;&gt;Laboratory work&lt;/h3&gt;
 &lt;p&gt;I spent most of the weekend doing lab work.
 It was long, but interesting.&lt;br&gt;
@@ -1878,10 +1878,10 @@ It was short, but interesting&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /post/myday/1_hub4f098400c98fd0fb4f9d60fa9acf07d_32211_2a344bdb302bfe95dc33909c6f483950.webp 400w,
+               /post/myday/1_hub4f098400c98fd0fb4f9d60fa9acf07d_32211_0b2ed728334638f13972a4c902574310.webp 400w,
                /post/myday/1_hub4f098400c98fd0fb4f9d60fa9acf07d_32211_b98c0a088415cf0fba4610c9c81872bc.webp 760w,
                /post/myday/1_hub4f098400c98fd0fb4f9d60fa9acf07d_32211_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/myday/1_hub4f098400c98fd0fb4f9d60fa9acf07d_32211_2a344bdb302bfe95dc33909c6f483950.webp&#34;
+               src=&#34;https://example.com/post/myday/1_hub4f098400c98fd0fb4f9d60fa9acf07d_32211_0b2ed728334638f13972a4c902574310.webp&#34;
                width=&#34;760&#34;
                height=&#34;430&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -1892,9 +1892,9 @@ It was short, but interesting&lt;/p&gt;
     
     <item>
       <title>An example preprint / working paper</title>
-      <link>http://localhost:1313/publication/preprint/</link>
+      <link>https://example.com/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/preprint/</guid>
+      <guid>https://example.com/publication/preprint/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
@@ -1906,9 +1906,9 @@ It was short, but interesting&lt;/p&gt;
     
     <item>
       <title>Slides</title>
-      <link>http://localhost:1313/slides/example/</link>
+      <link>https://example.com/slides/example/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/slides/example/</guid>
+      <guid>https://example.com/slides/example/</guid>
       <description>&lt;h1 id=&#34;create-slides-in-markdown-with-hugo-blox-builder&#34;&gt;Create slides in Markdown with Hugo Blox Builder&lt;/h1&gt;
 &lt;p&gt;&lt;a href=&#34;https://hugoblox.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Hugo Blox Builder&lt;/a&gt; | &lt;a href=&#34;https://docs.hugoblox.com/content/slides/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Documentation&lt;/a&gt;&lt;/p&gt;
 &lt;hr&gt;
@@ -2031,9 +2031,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>Example Project</title>
-      <link>http://localhost:1313/project/example/</link>
+      <link>https://example.com/project/example/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/example/</guid>
+      <guid>https://example.com/project/example/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
@@ -2044,17 +2044,17 @@ $$&lt;/p&gt;
     
     <item>
       <title>External Project</title>
-      <link>http://localhost:1313/project/external-project/</link>
+      <link>https://example.com/project/external-project/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/project/external-project/</guid>
+      <guid>https://example.com/project/external-project/</guid>
       <description></description>
     </item>
     
     <item>
       <title>An example journal article</title>
-      <link>http://localhost:1313/publication/journal-article/</link>
+      <link>https://example.com/publication/journal-article/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/journal-article/</guid>
+      <guid>https://example.com/publication/journal-article/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -2071,9 +2071,9 @@ $$&lt;/p&gt;
     
     <item>
       <title>An example conference paper</title>
-      <link>http://localhost:1313/publication/conference-paper/</link>
+      <link>https://example.com/publication/conference-paper/</link>
       <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/conference-paper/</guid>
+      <guid>https://example.com/publication/conference-paper/</guid>
       <description>&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.

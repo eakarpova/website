@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts | Academic</title>
-    <link>http://localhost:1313/post/</link>
-      <atom:link href="http://localhost:1313/post/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://example.com/post/</link>
+      <atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
     <description>Posts</description>
     <generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 30 Mar 2024 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Posts</title>
-      <link>http://localhost:1313/post/</link>
+      <link>https://example.com/post/</link>
     </image>
     
     <item>
       <title>Last week</title>
-      <link>http://localhost:1313/post/myweek/</link>
+      <link>https://example.com/post/myweek/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/myweek/</guid>
+      <guid>https://example.com/post/myweek/</guid>
       <description>&lt;h3 id=&#34;laboratory-work&#34;&gt;Laboratory work&lt;/h3&gt;
 &lt;p&gt;I spent most of the weekend doing lab work.
 It was long, but interesting.&lt;br&gt;
@@ -43,10 +43,10 @@ It was short, but interesting&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /post/myweek/1_huc34626c204486675fe8a1d8dd5c57405_99438_614a9ee73a45c6d7c5d715fbce6fc132.webp 400w,
+               /post/myweek/1_huc34626c204486675fe8a1d8dd5c57405_99438_42b65c91a5118ffb537e18ca0a58fe74.webp 400w,
                /post/myweek/1_huc34626c204486675fe8a1d8dd5c57405_99438_60473e7c5eb5f32dbd3aeeef7303b2d1.webp 760w,
                /post/myweek/1_huc34626c204486675fe8a1d8dd5c57405_99438_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/myweek/1_huc34626c204486675fe8a1d8dd5c57405_99438_614a9ee73a45c6d7c5d715fbce6fc132.webp&#34;
+               src=&#34;https://example.com/post/myweek/1_huc34626c204486675fe8a1d8dd5c57405_99438_42b65c91a5118ffb537e18ca0a58fe74.webp&#34;
                width=&#34;760&#34;
                height=&#34;623&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -57,9 +57,9 @@ It was short, but interesting&lt;/p&gt;
     
     <item>
       <title>Understanding Markdown</title>
-      <link>http://localhost:1313/post/md/</link>
+      <link>https://example.com/post/md/</link>
       <pubDate>Sat, 30 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/md/</guid>
+      <guid>https://example.com/post/md/</guid>
       <description>&lt;h3 id=&#34;intro&#34;&gt;Intro&lt;/h3&gt;
 &lt;p&gt;Markdown is a lightweight markup language that allows you to format text easily and efficiently. Let&amp;rsquo;s explore the essence of Markdown and how it can revolutionize your blogging experience.&lt;/p&gt;
 &lt;h3 id=&#34;what-is-markdown&#34;&gt;What is Markdown?&lt;/h3&gt;
@@ -101,10 +101,10 @@ It was short, but interesting&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /post/md/1_huf5b9f27575b4834ba9b09830f000979d_73698_aec44015efde3c92547162411e38d7ef.webp 400w,
+               /post/md/1_huf5b9f27575b4834ba9b09830f000979d_73698_eec1f03145323ecfe950b6ea879f9a2f.webp 400w,
                /post/md/1_huf5b9f27575b4834ba9b09830f000979d_73698_1651e63459149699fc9c6cabf4ce0953.webp 760w,
                /post/md/1_huf5b9f27575b4834ba9b09830f000979d_73698_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/md/1_huf5b9f27575b4834ba9b09830f000979d_73698_aec44015efde3c92547162411e38d7ef.webp&#34;
+               src=&#34;https://example.com/post/md/1_huf5b9f27575b4834ba9b09830f000979d_73698_eec1f03145323ecfe950b6ea879f9a2f.webp&#34;
                width=&#34;760&#34;
                height=&#34;545&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -115,9 +115,9 @@ It was short, but interesting&lt;/p&gt;
     
     <item>
       <title>Git version control</title>
-      <link>http://localhost:1313/post/git/</link>
+      <link>https://example.com/post/git/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/git/</guid>
+      <guid>https://example.com/post/git/</guid>
       <description>&lt;p&gt;Git is a console utility for tracking and maintaining a history of file changes in a project. It allows you to roll back a project to previous versions, compare, analyze and merge changes into a repository. A repository is a repository of code and its change history that is stored locally on your hard disk or on the Internet&lt;/p&gt;
 &lt;h2 id=&#34;basic-git-commands&#34;&gt;Basic Git commands:&lt;/h2&gt;
 &lt;ol&gt;
@@ -151,10 +151,10 @@ For a more in-depth look at Git, check out the official Git SCM documentation.&l
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /post/git/1_hu4a7bff5372e2d2eae41fd9b48d257ebf_193003_f08cd489febc883d185f3e0696d3a6d5.webp 400w,
+               /post/git/1_hu4a7bff5372e2d2eae41fd9b48d257ebf_193003_b81b02b7bbda1e0d73a5166ec5cfd42e.webp 400w,
                /post/git/1_hu4a7bff5372e2d2eae41fd9b48d257ebf_193003_4c65e146cf89824302b982c575cf4ea1.webp 760w,
                /post/git/1_hu4a7bff5372e2d2eae41fd9b48d257ebf_193003_1200x1200_fit_q75_h2_lanczos_3.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/git/1_hu4a7bff5372e2d2eae41fd9b48d257ebf_193003_f08cd489febc883d185f3e0696d3a6d5.webp&#34;
+               src=&#34;https://example.com/post/git/1_hu4a7bff5372e2d2eae41fd9b48d257ebf_193003_b81b02b7bbda1e0d73a5166ec5cfd42e.webp&#34;
                width=&#34;666&#34;
                height=&#34;358&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
@@ -165,9 +165,9 @@ For a more in-depth look at Git, check out the official Git SCM documentation.&l
     
     <item>
       <title>How did I spend my week?</title>
-      <link>http://localhost:1313/post/myday/</link>
+      <link>https://example.com/post/myday/</link>
       <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/myday/</guid>
+      <guid>https://example.com/post/myday/</guid>
       <description>&lt;h3 id=&#34;laboratory-work&#34;&gt;Laboratory work&lt;/h3&gt;
 &lt;p&gt;I spent most of the weekend doing lab work.
 It was long, but interesting.&lt;br&gt;
@@ -194,10 +194,10 @@ It was short, but interesting&lt;/p&gt;
 &lt;figure  &gt;
   &lt;div class=&#34;d-flex justify-content-center&#34;&gt;
     &lt;div class=&#34;w-100&#34; &gt;&lt;img alt=&#34;&#34; srcset=&#34;
-               /post/myday/1_hub4f098400c98fd0fb4f9d60fa9acf07d_32211_2a344bdb302bfe95dc33909c6f483950.webp 400w,
+               /post/myday/1_hub4f098400c98fd0fb4f9d60fa9acf07d_32211_0b2ed728334638f13972a4c902574310.webp 400w,
                /post/myday/1_hub4f098400c98fd0fb4f9d60fa9acf07d_32211_b98c0a088415cf0fba4610c9c81872bc.webp 760w,
                /post/myday/1_hub4f098400c98fd0fb4f9d60fa9acf07d_32211_1200x1200_fit_q75_h2_lanczos.webp 1200w&#34;
-               src=&#34;http://localhost:1313/post/myday/1_hub4f098400c98fd0fb4f9d60fa9acf07d_32211_2a344bdb302bfe95dc33909c6f483950.webp&#34;
+               src=&#34;https://example.com/post/myday/1_hub4f098400c98fd0fb4f9d60fa9acf07d_32211_0b2ed728334638f13972a4c902574310.webp&#34;
                width=&#34;760&#34;
                height=&#34;430&#34;
                loading=&#34;lazy&#34; data-zoomable /&gt;&lt;/div&gt;
